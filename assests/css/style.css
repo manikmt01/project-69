@@ -22,11 +22,13 @@
 --font-weight-600: 600;
 --font-weight-700: 700;
 --font-weight-900: 900;
+--font-size-10: 10px;
 --font-size-12: 12px;
 --font-size-14: 14px;
 --font-size-16: 16px;
 --font-size-18: 18px;
 --font-size-24: 24px;
+--line-height-10: 10px;
 --line-height-12: 12px;
 --line-height-14: 14px;
 --line-height-16: 16px;
@@ -178,6 +180,7 @@ padding: 16px 25px;
 display: block;
 transition: all ease .6s;
 }
+.wrapper .left-sidebar .main-left-menu li a.active,
 .wrapper .left-sidebar .main-left-menu li a:hover{
     background: #028C96;
     transition: all ease .6s;
@@ -403,25 +406,25 @@ input[type="search"]::-webkit-search-results-decoration {
     border-radius: 10px;
     background: #fff;
 }
-.tasks .task-left .tast-top {
+.common-tast-top {
     padding: 15px 20px;
     border-bottom: 1px solid #EEF0F5;
 }
-.tasks .task-left .tast-top .item-left{}
-.tasks .task-left .tast-top .item-left h4{
+.common-tast-top .item-left{}
+.common-tast-top .item-left h4{
      font-weight: var(--font-weight-700);
 font-size: var(--font-size-18);
 line-height: var(--line-height-18);
 color: var(--color-1A0A26);
 margin-bottom: 0;
 }
-.tasks .task-left .tast-top .item-right{}
-.tasks .task-left .tast-top .item-right form {
+.common-tast-top .item-right{}
+.common-tast-top .item-right form {
     width: 192px;
     position: relative;
     
 }
-.tasks .task-left .tast-top .item-right form input {
+.common-tast-top .item-right form input {
     border: 1px solid #EEF0F5;
     border-radius: 5px;
     font-weight: var(--font-weight-400);
@@ -430,15 +433,15 @@ margin-bottom: 0;
     color: var(--color-8F95A6);
     padding: 11px 11px 11px 34px;
 }
-.tasks .task-left .tast-top .item-right form input:focus{
+.common-tast-top .item-right form input:focus{
     box-shadow: none;
 }
-.tasks .task-left .tast-top .item-right form button{
+.common-tast-top .item-right form button {
     background: transparent;
     padding: 0;
     position: absolute;
     left: 12px;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     border: 0;
     width: 14px;
@@ -558,15 +561,6 @@ margin-bottom: 0;
     color: var(--color-8F95A6);
     margin-bottom: 0;
 }
-.tasks .Events{}
-.tasks {}
-.tasks {}
-.tasks {}
-.tasks {}
-.tasks {}
-.tasks {}
-.tasks {}
-.tasks {}
 
 
 
@@ -577,57 +571,477 @@ margin-bottom: 0;
 
 
 /* ----------------------------------------------
-                     start
+                    Closings start
 ---------------------------------------------- */
+.Closings {
+    border: 1px solid #EEF0F5;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-bottom: 0;
+}
+.Closings .table-responsive{}
+.Closings .table-responsive table {
+    margin: 0;
+}
+.Closings .table-responsive table thead{}
+.Closings .table-responsive table thead tr{}
+.Closings .table-responsive table thead tr th {
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+    vertical-align: middle;
+    padding: 7px 20px;
+}
+.Closings .table-responsive table thead tr th img{}
+.Closings .table-responsive table tbody {}
+.Closings .table-responsive table tbody  tr{}
+.Closings .table-responsive table tbody  tr td{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    vertical-align: middle;
+    padding: 8px 20px;
+
+}
+.Closings .table-responsive table tbody  tr td .media{}
+.Closings .table-responsive table tbody  tr td .media .box-text{
+    background: var(--color-1A0A26);
+    width: 28px;
+height: 28px;
+border-radius: 50%;
+padding: 9px 7px;
+font-weight: var(--font-weight-600);
+    font-size: var(--font-size-10);
+    line-height: var(--line-height-10);
+    color: var(--color-FFFFFF);
+}
+.Closings .table-responsive table tbody  tr td .media .box-text span{}
+.Closings .table-responsive table tbody tr td .media .media-body {
+    align-self: center;
+    margin-left: 10px;
+}
+.Closings .table-responsive table tbody  tr td .media .media-body p{}
+.Closings .table-responsive table tbody  tr td p{
+    margin-bottom: 0;
+}
+.Closings .table-responsive table tbody  tr td a{
+    background: #5095B4;
+border-radius: 15px;
+padding: 8px 18px;
+ font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+}
+.Closings .table-responsive table tbody  tr td p span{}
+.Closings .table-responsive table tbody  tr td p span.top-p{}
+.Closings .table-responsive table tbody  tr td p span.bottom-p{}
+
+
+/* ----------------------------------------------
+                    Closings end
+---------------------------------------------- */
+
+
+
+/* ----------------------------------------------
+                   contact-top start
+---------------------------------------------- */
+.contacts-wrapper {
+    border: 1px solid #EEF0F5;
+    border-radius: 10px;
+    background: #fff;
+    padding-bottom: 120px;
+    margin-bottom: 20px;
+}
+.contacts-wrapper .contact-top {
+    padding: 19px;
+}
+.contacts-wrapper .contact-top .item-left{}
+.contacts-wrapper .contact-top form{
+    width: 212px;
+    position: relative;
+}
+.contacts-wrapper .contact-top form input:focus{
+    box-shadow: none;
+}
+.contacts-wrapper .contact-top form input{
+        border: 1px solid #EEF0F5;
+    border-radius: 5px;
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    padding: 11px 11px 11px 34px;
+}
+.contacts-wrapper .contact-top form button {
+        background: transparent;
+    padding: 0;
+    position: absolute;
+    left: 12px;
+    top: 45%;
+    transform: translateY(-50%);
+    border: 0;
+    width: 14px;
+}
+.contacts-wrapper .contact-top form button img {}
+.contacts-wrapper .contact-top .item-right {}
+.contacts-wrapper .contact-top .item-right ul{}
+.contacts-wrapper .contact-top .item-right ul li{
+    margin-right: 10px;
+}
+.contacts-wrapper .contact-top .item-right ul li:last-child{
+    margin-right: 0;
+}
+.contacts-wrapper .contact-top .item-right ul li a {
+    background: var(--color-028C96);
+    border-radius: 5px;
+    padding: 10px 16px;
+    font-weight: var(--font-weight-600);
+font-size: var(--font-size-14);
+line-height: var(--line-height-14);
+color: var(--color-FFFFFF);
+}
+.contacts-wrapper .contact-top .item-right ul li a img{
+    position: relative;
+    top: -2px;
+}
+.contacts-wrapper .contact-top .item-right ul li a span {
+    vertical-align: middle;
+    margin-left: 8px;
+}
+.contacts-wrapper .table-responsive{}
+.contacts-wrapper .table-responsive table{
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+.contacts-wrapper .table-responsive table thead{}
+.contacts-wrapper .table-responsive table thead tr{}
+.contacts-wrapper .table-responsive table thead tr th:first-child{
+    padding: 15px 20px;
+    max-width: 55px;
+}
+.contacts-wrapper .table-responsive table thead tr th {
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+    vertical-align: middle;
+    border-bottom: 0.5px solid #ddd;
+}
+.contacts-wrapper .table-responsive table thead tr th .form-check{}
+.contacts-wrapper .table-responsive table thead tr th .form-check input{}
+.contacts-wrapper .table-responsive table thead tr th .form-check input {}
+.contacts-wrapper .table-responsive table tbody{}
+.contacts-wrapper .table-responsive table tbody tr:last-child{}
+.contacts-wrapper .table-responsive table tbody tr:last-child td:first-child{
+    border-radius: 10px;
+}
+.contacts-wrapper .table-responsive table tbody tr td {
+    font-weight: var(--font-weight-500);
+font-size: var(--font-size-14);
+line-height: var(--line-height-14);
+color: var(--color-1A0A26);
+vertical-align: middle;
+
+}
+.contacts-wrapper .table-responsive table tbody tr td:first-child{
+    padding: 15px 20px;
+    max-width: 55px;
+}
+.contacts-wrapper .table-responsive table tbody tr td .form-check{}
+.contacts-wrapper .table-responsive table tbody tr td .form-check input{}
+.contacts-wrapper .table-responsive table tbody tr td .media {}
+.contacts-wrapper .table-responsive table tbody tr td .media .box-text {
+    background: var(--color-1A0A26);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    padding: 10px 2px;
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-10);
+    line-height: var(--line-height-10);
+    color: var(--color-FFFFFF);
+    text-align: center;
+    align-self: center;
+}
+.contacts-wrapper .table-responsive table tbody tr td .media .box-text span{}
+.contacts-wrapper .table-responsive table tbody tr td .media .box-text:nth-child(2){
+    margin-left: -5px;
+    border: 1px solid #FFFFFF;
+}
+.contacts-wrapper .table-responsive table tbody tr td .media .media-body{
+    align-self: center;
+    margin-left: 10px;
+}
+.contacts-wrapper .table-responsive table tbody tr td .media .media-body p{}
+.contacts-wrapper .table-responsive table tbody tr td p{
+    margin-bottom: 0;
+}
+.contacts-wrapper .table-responsive table tbody tr td p a{
+    font-weight: var(--font-weight-500);
+font-size: var(--font-size-14);
+line-height: var(--line-height-14);
+color: var(--color-1A0A26);
+}
+.contacts-wrapper .table-responsive table tbody tr td p span{}
+.contacts-wrapper .table-responsive table tbody tr td .agent-img {
+    text-align: center;
+}
+.contacts-wrapper .table-responsive table tbody tr td .agent-img img{}
+.contacts-wrapper .table-responsive table tbody tr td ul{}
+.contacts-wrapper .table-responsive table tbody tr td ul li:last-child{
+    margin-right: 0;
+}
+.contacts-wrapper .table-responsive table tbody tr td ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.contacts-wrapper .table-responsive table tbody tr td ul li a{
+    background: #FFFFFF;
+border: 1px solid #EEF0F5;
+border-radius: 18px;
+padding: 9px 15px;
+font-weight: var(--font-weight-400);
+font-size: var(--font-size-14);
+line-height: var(--line-height-14);
+color: var(--color-1A0A26);
+}
+.contacts-wrapper .table-responsive table tbody tr td ul li a:hover{
+    background: var(--color-028C96);
+    color: #fff;
+    border-color: var(--color-028C96);
+}
+.contacts-wrapper .table-responsive table{}
 
 
 
 
 
 /* ----------------------------------------------
-                     end
+                   contact-top  end
 ---------------------------------------------- */
 
 
 
 /* ----------------------------------------------
-                     start
+                  offcanvas-wrapper   start
+---------------------------------------------- */
+
+.offcanvas-wrapper {
+
+}
+.offcanvas-wrapper .offcanvas-header {
+    background: var(--color-1A0A26);
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18);
+    color: var(--color-FFFFFF);
+    padding: 21px 17px;
+}
+.offcanvas-wrapper .offcanvas-header h5{
+    color: #fff;
+}
+.offcanvas-wrapper .offcanvas-header button{}
+.offcanvas-wrapper .offcanvas-body {
+    padding: 20px;
+    padding-bottom: 140px;
+}
+.offcanvas-wrapper .offcanvas-body form{}
+.offcanvas-wrapper .offcanvas-body form .form-group{}
+.offcanvas-wrapper .offcanvas-body form .form-group label{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 5px;
+    
+}
+.offcanvas-wrapper .offcanvas-body form .form-group select:focus{
+    box-shadow: none;
+}
+.offcanvas-wrapper .offcanvas-body form .form-group select {
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 0;
+font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    border-bottom: 1px solid #EEF0F5;
+
+}
+.offcanvas-wrapper .offcanvas-body form .Anniversaries {
+    margin-bottom: 20px;
+    padding-top: 54px;
+}
+.offcanvas-wrapper .offcanvas-body form .form-group-item ul{
+background: #FFFFFF;
+border: 1px solid #EEF0F5;
+border-radius: 18px;
+}
+.offcanvas-wrapper .offcanvas-body form .form-group-item h4{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 15px;
+}
+.offcanvas-wrapper .offcanvas-body form .form-group-item ul li{
+    width: 25%;
+    display: inline-block;
+}
+.offcanvas-wrapper .offcanvas-body form .form-group-item ul li button {
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    padding: 11px 20px;
+    background: transparent;
+    border: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+        border-radius: 18px;
+}
+.offcanvas-wrapper .offcanvas-body form .form-group-item ul li.active button{
+        background: var(--color-028C96);
+        color: #fff;
+}
+.offcanvas-wrapper .offcanvas-body form .offcanvas-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: var(--color-EEF0F5);
+    padding: 15px 20px;
+
+}
+.offcanvas-wrapper .offcanvas-body form .offcanvas-bottom button:last-child{
+    margin-right: 0;
+}
+.offcanvas-wrapper .offcanvas-body form .offcanvas-bottom button {
+    width: 50%;
+    border: 1px solid #8F95A6;
+border-radius: 5px;
+padding: 14px 14px 12px 14px;
+font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-right: 15px;
+    transition: all ease .6s;
+}
+.offcanvas-wrapper .offcanvas-body form .offcanvas-bottom button[type="button"]:hover {
+    background: var(--color-8F95A6);
+    color: var(--color-FFFFFF);
+}
+.offcanvas-wrapper .offcanvas-body form .offcanvas-bottom button[type="reset"] {
+    border: 1px solid var(--color-028C96);
+    color: var(--color-028C96);
+
+}
+.offcanvas-wrapper .offcanvas-body form .offcanvas-bottom button[type="reset"]:hover{
+    background: var(--color-028C96);
+    color: var(--color-FFFFFF);
+}
+.offcanvas-wrapper .btn-close {
+    background: transparent url(data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 14 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.99999 5.58574L11.95 0.635742L13.364 2.04974L8.41399 6.99974L13.364 11.9497L11.95 13.3637L6.99999 8.41374L2.04999 13.3637L0.635986 11.9497L5.58599 6.99974L0.635986 2.04974L2.04999 0.635742L6.99999 5.58574Z' fill='white'/%3E%3C/svg%3E) center/1em auto no-repeat;
+}
+.offcanvas-wrapper.offcanvas.offcanvas-end {
+    width: 676px;
+}
+/* scrol bar style */
+/* width */
+.offcanvas-wrapper ::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+
+/* Track */
+.offcanvas-wrapper ::-webkit-scrollbar-track {
+  background: #1A0A26; 
+}
+ 
+/* Handle */
+.offcanvas-wrapper ::-webkit-scrollbar-thumb {
+  background: #028C96; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.offcanvas-wrapper ::-webkit-scrollbar-thumb:hover {
+  background: #028C96; 
+}
+/* ----------------------------------------------
+                    offcanvas-wrapper end
 ---------------------------------------------- */
 
 
 
-
-
 /* ----------------------------------------------
-                     end
+                   item-right-multi-select  start
 ---------------------------------------------- */
 
-
-
+.item-right-multi-select {}
+.item-right-multi-select ul{}
+.item-right-multi-select ul li:first-child{
+    margin-right: 30px;
+}
+.item-right-multi-select ul li:first-child button {
+    cursor: default;
+    position: relative;
+    top: -1px;
+}
+.item-right-multi-select ul li{
+    margin-right: 16.33px;
+}
+.item-right-multi-select ul li:last-child{
+    margin-right: 0;
+}
+.item-right-multi-select ul li button{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    border: none;
+    padding: 0;
+    background: transparent;
+}
+.item-right-multi-select ul li button.Select-All{
+    color: var(--color-028C96);
+}
+.item-right-multi-select ul li button span{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+}
+.item-right-multi-select ul li button img{ 
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    margin-right: 8px;
+}
+.form-check-input { 
+    width: 18px;
+    height: 18px;
+}
+.form-check-input:checked {
+    background-color: #028C96;
+    border-color: #028C96;
+}
+.contacts-wrapper .table-responsive table thead tr th .form-check .form-check-input:checked[type=checkbox] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' class='bi bi-dash-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z'/%3E%3C/svg%3E");
+}
 /* ----------------------------------------------
-                     start
----------------------------------------------- */
-
-
-
-
-
-/* ----------------------------------------------
-                     end
----------------------------------------------- */
-
-
-
-/* ----------------------------------------------
-                     start
----------------------------------------------- */
-
-
-
-
-
-/* ----------------------------------------------
-                     end
+                   item-right-multi-select  end
 ---------------------------------------------- */
 
 
