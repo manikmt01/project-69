@@ -163,17 +163,67 @@
                                 </div>
                                 <div class="waston-Assigned">
                                     <h4>Assigned Team</h4>
-                                    <h5>Client Liason</h5>
-                                    <div class="media">
-                                        <div class="box">
-                                            <span class="img-box">
-                                                <img src="assests/images/user3.svg" alt="img" class="img-fluid">
-                                            </span>
-                                        </div>
-                                        <div class="media-body">
-                                            <h4>Steave Smith</h4>
+                                    <!-- single item start -->
+                                    <div class="item-single">
+                                        <h5>Client Liason</h5>
+                                        <div class="media">
+                                            <div class="box">
+                                                <span class="img-box">
+                                                    <img src="assests/images/user3.svg" alt="img" class="img-fluid">
+                                                </span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4>Steave Smith</h4>
+                                            </div>
                                         </div>
                                     </div>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="item-single">
+                                        <h5>Client Liason</h5>
+                                        <div class="media">
+                                            <div class="box">
+                                                <span class="img-box">
+                                                    <img src="assests/images/user2.svg" alt="img" class="img-fluid">
+                                                </span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4>Steave Smith</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="item-single">
+                                        <h5>Client Liason</h5>
+                                        <div class="media">
+                                            <div class="box">
+                                                <span class="img-box">
+                                                    <img src="assests/images/user3.svg" alt="img" class="img-fluid">
+                                                </span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4>Steave Smith</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    <!-- single item start -->
+                                    <div class="item-single">
+                                        <h5>Client Liason</h5>
+                                        <div class="media">
+                                            <div class="box">
+                                                <span class="img-box">
+                                                    <img src="assests/images/user2.svg" alt="img" class="img-fluid">
+                                                </span>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4>Steave Smith</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- single item end -->
+                                    
                                 </div>
                                 
                             </div>
@@ -638,7 +688,7 @@
                                         </div>
                                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
 
-                                           <div class="accordion accordion1" id="accordionExample">
+                                         <div class="accordion accordion1" id="accordionExample">
 
                                             <div class="accordion-item accordion-item1 accordion-item2">
                                                 <div class="d-flex accordin-flex justify-content-between">
@@ -1050,26 +1100,26 @@
                                 <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact2-tab" tabindex="0">
                                     <div class="document-wrapper bg-white">
                                         <div class="common-tast-top d-flex justify-content-between">
-                                                <div class="item-left  align-self-center">
-                                                    <h4>Tasks</h4>
-                                                </div>
-                                                <div class="item-right align-self-center text-end">
-                                                    <a href=""><img src="assests/images/pluse.svg" alt=""></a>
-                                                </div>
+                                            <div class="item-left  align-self-center">
+                                                <h4>Tasks</h4>
                                             </div>
-                                           <div class="file-wrapp">
-                                                <div class="drop-zone">
-    <span class="drop-zone__prompt">
-        <span class="span-img">
-            <img src="assests/images/upload-cloud.svg" alt="img" class="img-fluid">
-        </span>
-        <span class="spantext d-block">
-            Drag & Drop document here
-        </span>
-    </span>
-    <input type="file" name="myFile" class="drop-zone__input">
-  </div>
-                                           </div>
+                                            <div class="item-right align-self-center text-end">
+                                                <a href=""><img src="assests/images/pluse.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="file-wrapp">
+                                            <div class="drop-zone">
+                                                <span class="drop-zone__prompt">
+                                                    <span class="span-img">
+                                                        <img src="assests/images/upload-cloud.svg" alt="img" class="img-fluid">
+                                                    </span>
+                                                    <span class="spantext d-block">
+                                                        Drag & Drop document here
+                                                    </span>
+                                                </span>
+                                                <input type="file" name="myFile" class="drop-zone__input">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1116,41 +1166,41 @@
               $(".timeline-wrapper .timeline-top-inner").show();
           });
 
-document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
-  const dropZoneElement = inputElement.closest(".drop-zone");
+            document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
+              const dropZoneElement = inputElement.closest(".drop-zone");
 
-  dropZoneElement.addEventListener("click", (e) => {
-    inputElement.click();
-  });
+              dropZoneElement.addEventListener("click", (e) => {
+                inputElement.click();
+            });
 
-  inputElement.addEventListener("change", (e) => {
-    if (inputElement.files.length) {
-      updateThumbnail(dropZoneElement, inputElement.files[0]);
-    }
-  });
+              inputElement.addEventListener("change", (e) => {
+                if (inputElement.files.length) {
+                  updateThumbnail(dropZoneElement, inputElement.files[0]);
+              }
+          });
 
-  dropZoneElement.addEventListener("dragover", (e) => {
-    e.preventDefault();
-    dropZoneElement.classList.add("drop-zone--over");
-  });
+              dropZoneElement.addEventListener("dragover", (e) => {
+                e.preventDefault();
+                dropZoneElement.classList.add("drop-zone--over");
+            });
 
-  ["dragleave", "dragend"].forEach((type) => {
-    dropZoneElement.addEventListener(type, (e) => {
-      dropZoneElement.classList.remove("drop-zone--over");
-    });
-  });
+              ["dragleave", "dragend"].forEach((type) => {
+                dropZoneElement.addEventListener(type, (e) => {
+                  dropZoneElement.classList.remove("drop-zone--over");
+              });
+            });
 
-  dropZoneElement.addEventListener("drop", (e) => {
-    e.preventDefault();
+              dropZoneElement.addEventListener("drop", (e) => {
+                e.preventDefault();
 
-    if (e.dataTransfer.files.length) {
-      inputElement.files = e.dataTransfer.files;
-      updateThumbnail(dropZoneElement, e.dataTransfer.files[0]);
-    }
+                if (e.dataTransfer.files.length) {
+                  inputElement.files = e.dataTransfer.files;
+                  updateThumbnail(dropZoneElement, e.dataTransfer.files[0]);
+              }
 
-    dropZoneElement.classList.remove("drop-zone--over");
-  });
-});
+              dropZoneElement.classList.remove("drop-zone--over");
+          });
+          });
 
 /**
  * Updates the thumbnail on a drop zone element.
@@ -1158,22 +1208,22 @@ document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
  * @param {HTMLElement} dropZoneElement
  * @param {File} file
  */
-function updateThumbnail(dropZoneElement, file) {
+ function updateThumbnail(dropZoneElement, file) {
   let thumbnailElement = dropZoneElement.querySelector(".drop-zone__thumb");
 
   // First time - remove the prompt
   if (dropZoneElement.querySelector(".drop-zone__prompt")) {
     dropZoneElement.querySelector(".drop-zone__prompt").remove();
-  }
+}
 
   // First time - there is no thumbnail element, so lets create it
   if (!thumbnailElement) {
     thumbnailElement = document.createElement("div");
     thumbnailElement.classList.add("drop-zone__thumb");
     dropZoneElement.appendChild(thumbnailElement);
-  }
+}
 
-  thumbnailElement.dataset.label = file.name;
+thumbnailElement.dataset.label = file.name;
 
   // Show thumbnail for image files
   if (file.type.startsWith("image/")) {
@@ -1182,12 +1232,12 @@ function updateThumbnail(dropZoneElement, file) {
     reader.readAsDataURL(file);
     reader.onload = () => {
       thumbnailElement.style.backgroundImage = `url('${reader.result}')`;
-    };
-  } else {
+  };
+} else {
     thumbnailElement.style.backgroundImage = null;
-  }
+}
 }
 
-      </script>
-  </body>
-  </html>
+</script>
+</body>
+</html>

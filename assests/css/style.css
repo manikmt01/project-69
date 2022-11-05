@@ -1992,6 +1992,18 @@ color: #1A0A26;
 margin-bottom: 15px;
 
 }
+.user-details.user-details2 .left-item .waston-Assigned .item-single .img-box{}
+.user-details.user-details2 .left-item .waston-Assigned .item-single .img-box img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.user-details.user-details2 .left-item .waston-Assigned .item-single{
+    margin-bottom: 30px;
+}
+.user-details.user-details2 .left-item .waston-Assigned .item-single:last-child{
+    margin-bottom: 0;
+}
 .user-details.user-details2 .left-item .waston-Assigned h5{
     font-weight: 400;
 font-size: 14px;
