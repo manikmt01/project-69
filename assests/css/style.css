@@ -12,6 +12,7 @@
 --color-1A0A26: #1A0A26;
 --color-DD5353: #DD5353;
 --color-EBEBEB: #EBEBEB;
+--color-FF99D7: #FF99D7;
 /* Font/text values */
 --font-family-Metropolis: 'Metropolis';
 --font-weight-300: 300;
@@ -733,7 +734,13 @@ contact-top start
     align-self: center;
     margin-left: 10px;
 }
-.contacts-wrapper .table-responsive table tbody tr td .media .media-body p{}
+.contacts-wrapper .table-responsive table tbody tr td .media .media-body p {
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 0;
+}
 .contacts-wrapper .table-responsive table tbody tr td p{
     margin-bottom: 0;
 }
