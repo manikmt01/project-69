@@ -123,6 +123,10 @@
 		padding-left: 195px;
 		padding-right: 20px;
 	}
+	.wrapper .main-content-user-details {
+    padding-left: 175px !important;
+}
+
 }
 /*// Extra large devices (large desktops, 1440px and up)*/
 @media (min-width: 1700px) and (max-width: 2099.98px){

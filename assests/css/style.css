@@ -101,11 +101,12 @@ ul{
 ::-webkit-scrollbar-thumb:hover {
     background: #028C96;
 }
-.modal-header h2{
+.modal-header h2 {
     font-weight: var(--font-weight-700);
-    font-size: var(--font-size-16);
+    font-size: var(--font-size-16) !important;
     line-height: var(--line-height-16);
     color: var(--color-1A0A26);
+    margin-bottom: 11px;
 }
 .modal-header p{
     font-weight: var(--font-weight-500);
@@ -672,6 +673,7 @@ contact-top start
     margin-left: 8px;
 }
 .contacts-wrapper .table-responsive{}
+
 .contacts-wrapper .table-responsive table{
     margin-bottom: 0;
     border-radius: 10px;
@@ -1000,6 +1002,7 @@ item-right-multi-select  end
     border: 1px solid var(--color-EEF0F5);
     padding: 20px;
     height: 100%;
+    min-height: 86vh;
 }
 .user-details .left-item .top-user {}
 .user-details .left-item .top-user .top-edit {
@@ -2397,195 +2400,507 @@ end
     color: var(--color-FFFFFF);
 }
 .calender-wrapper .calender-filter button{}
+
+
 /* ----------------------------------------------
-start
+        Settings-main-content start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        Settings-main-content end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+        user-details start
+---------------------------------------------- */
+.Settings-main-content .user-details{}
+/* ----------------------------------------------
+       user-details end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content .Settings-left {
+    padding: 20px 0;
+}
+.Settings-main-content .Settings-left .item-commonSet{
+    margin-bottom: 11px;
+}
+.Settings-main-content .Settings-left .item-commonSet:last-child{
+    margin-bottom: 0;
+}
+.Settings-main-content .Settings-left .item-commonSet h4{
+margin-bottom: 14px;
+padding: 0 20px;
+
+font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18);
+    color: var(--color-1A0A26);
+}
+.Settings-main-content .Settings-left .item-commonSet ul{}
+.Settings-main-content .Settings-left .item-commonSet ul li{}
+.Settings-main-content .Settings-left .item-commonSet ul li a{
+padding: 16px 20px 12px 20px;
+display: block;
+font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+}
+.Settings-main-content .Settings-left .item-commonSet ul li a:hover,
+.Settings-main-content .Settings-left .item-commonSet ul li a.active{
+    background: rgb(2 140 150 / 10%);
+}
+.Settings-main-content .Settings-left .item-start{}
+.Settings-main-content .Settings-left .item-end{}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         collaborate-tab-inner start
+---------------------------------------------- */
+.Settings-main-content .collaborate-tab-inner {
+    padding-top: 20px;
+}
+
+.Settings-main-content .collaborate-tab-inner table {
+    margin-bottom: 0;
+    border-radius: 10px;
+    border: 1px solid #EEF0F5;
+    border-bottom: 0;
+    background: var(--color-FFFFFF);
+
+}
+.Settings-main-content .collaborate-tab-inner  table thead{}
+.Settings-main-content .collaborate-tab-inner  table thead tr{}
+.Settings-main-content .collaborate-tab-inner  table thead tr th:first-child{
+    padding: 15px 20px;
+    max-width: 55px;
+}
+.Settings-main-content .collaborate-tab-inner  table thead tr th {
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+    vertical-align: middle;
+    border-bottom: 0.5px solid #ddd;
+}
+.Settings-main-content .collaborate-tab-inner  table thead tr th .form-check{}
+.Settings-main-content .collaborate-tab-inner  table thead tr th .form-check input{}
+.Settings-main-content .collaborate-tab-inner  table thead tr th .form-check input {}
+.Settings-main-content .collaborate-tab-inner  table tbody{}
+.Settings-main-content .collaborate-tab-inner  table tbody tr:last-child{}
+
+.Settings-main-content .collaborate-tab-inner  table tbody tr td {
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    vertical-align: middle;
+}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td:first-child{
+    padding: 15px 20px;
+
+}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td .form-check{}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td .form-check input{}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td .media {}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td .media img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.Settings-main-content .collaborate-tab-inner  table tbody tr td .media .media-body{
+    align-self: center;
+    margin-left: 10px;
+}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td .media .media-body small{
+font-weight: var(--font-weight-500);
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-12);
+    color: var(--color-8F95A6);
+}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td .media .media-body p {
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 0;
+}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td p{
+    margin-bottom: 0;
+}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td p a{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td p span{}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td .agent-img {
+    text-align: var(--center);
+}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td .agent-img img{}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td ul{}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td ul li:last-child{
+    margin-right: 0;
+}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.Settings-main-content .collaborate-tab-inner table tbody tr td ul li a {
+    background: var(--color-1A0A26);
+    border: 1px solid var(--color-EEF0F5);
+    border-radius: 15px;
+    padding: 9px 15px;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+}
+.Settings-main-content .collaborate-tab-inner  table tbody tr td ul li a:hover{
+    background: var(--color-028C96);
+    color: var(--color-FFFFFF);
+    border-color: var(--color-028C96);
+}
+.Settings-main-content .collaborate-tab-inner  .table>:not(caption)>*>* {
+    border-color: #EEF0F5 !important;
+}
+/* ----------------------------------------------
+       collaborate-tab-inner end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+        Collaborators start
+---------------------------------------------- */
+.Settings-main-content .Collaborators {
+    padding-top: 20px;
+}
+.Settings-main-content .Collaborators .collaborate-top{
+    padding-bottom: 20px;
+}
+.Settings-main-content .Collaborators .collaborate-top h2{
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18);
+    color: var(--color-1A0A26);
+    margin-bottom: 11px;
+}
+.Settings-main-content .Collaborators .collaborate-top p{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-12);
+    color: var(--color-515869);
+    margin-bottom: 0;
+}
+.Settings-main-content .Collaborators .collaborate-button{}
+.Settings-main-content .Collaborators .collaborate-button ul.nav-pills{}
+.Settings-main-content .Collaborators .collaborate-button ul.nav-pills li{}
+.Settings-main-content .Collaborators .collaborate-button ul.nav-pills li:last-child button{
+    border: 1px solid rgba(143, 149, 166, 0.4);
+border-radius: 0px 5px 5px 0px;
+}
+.Settings-main-content .Collaborators .collaborate-button ul.nav-pills li button.active{
+    border: 1px solid #028C96;
+    background: #028C96;
+    color: var(--color-FFFFFF);
+}
+.Settings-main-content .Collaborators .collaborate-button ul.nav-pills li button{
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    padding: 10px 34px;
+    border-radius: 5px 0px 0px 5px;
+    background: #fff;
+    border: 1px solid transparent;
+}
+.Settings-main-content .Collaborators .filter-button {
+    margin-top: -55px;
+    margin-bottom: 20px;
+}
+.Settings-main-content .Collaborators .filter-button button{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+    background: #028C96;
+border-radius: 5px;
+padding: 10px 15px;
+border: 0;
+}
+.Settings-main-content .Collaborators .filter-button button img{
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+.Settings-main-content .Collaborators .filter-button button.Filter-btn{}
+.Settings-main-content .Collaborators .filter-button button.New-Vendor-btn{}
+/* ----------------------------------------------
+       Collaborators end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+         start
+---------------------------------------------- */
+.Settings-main-content {}
+/* ----------------------------------------------
+        end
+---------------------------------------------- */
+
+
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-start
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-start
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-start
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-start
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-start
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-start
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-start
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-start
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-start
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-start
+                        end
+---------------------------------------------- */
+
+/* ----------------------------------------------
+                        start
 ---------------------------------------------- */
 /* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
----------------------------------------------- */
-/* ----------------------------------------------
-start
----------------------------------------------- */
-/* ----------------------------------------------
-end
+                        end
 ---------------------------------------------- */
