@@ -2628,7 +2628,15 @@ border-radius: 0px 5px 5px 0px;
     margin-bottom: 20px;
 }
 .Settings-main-content .Collaborators .filter-button button{
-    font-weight: var(--font-weight-500);
+   
+}
+.Settings-main-content .Collaborators .filter-button button img{
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+.Settings-main-content .Collaborators .filter-button button.Filter-btn{
+     font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-FFFFFF);
@@ -2637,13 +2645,16 @@ border-radius: 5px;
 padding: 10px 15px;
 border: 0;
 }
-.Settings-main-content .Collaborators .filter-button button img{
-    margin-right: 10px;
-    position: relative;
-    top: -2px;
+.Settings-main-content .Collaborators .filter-button button.New-Vendor-btn{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+    background: #028C96;
+border-radius: 5px;
+padding: 10px 15px;
+border: 0;
 }
-.Settings-main-content .Collaborators .filter-button button.Filter-btn{}
-.Settings-main-content .Collaborators .filter-button button.New-Vendor-btn{}
 /* ----------------------------------------------
        Collaborators end
 ---------------------------------------------- */
@@ -2652,45 +2663,581 @@ border: 0;
 /* ----------------------------------------------
          start
 ---------------------------------------------- */
-.Settings-main-content {}
+.Settings-main-content .filter-button{}
+.Settings-main-content .filter-button{}
+.Settings-main-content .filter-button .modal{}
+.Settings-main-content .filter-button .modal .modal-body{}
+.Settings-main-content .filter-button .modal .modal-body .modal-top{
+    padding-bottom: 40px;
+}
+.Settings-main-content .filter-button .modal .modal-body .modal-top h4{
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-16);
+    color: var(--color-1A0A26);
+    margin-bottom: 10px;
+}
+.Settings-main-content .filter-button .modal .modal-body .modal-top p{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-18);
+    color: var(--color-515869);
+}
+.Settings-main-content .filter-button .modal .modal-body .form-group{}
+.Settings-main-content .filter-button .modal .modal-body .form-group label{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 10px;
+}
+.Settings-main-content .filter-button .modal .modal-body .form-group select:focus{
+    box-shadow: none;
+}
+.Settings-main-content .filter-button .modal .modal-body .form-group select{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #EEF0F5;
+}
+.Settings-main-content .filter-button .modal .modal-body .form-group {
+    margin-bottom: 20px;
+}
+.Settings-main-content .filter-button .modal .modal-body .form-group  input::placeholder{
+    color: var(--color-8F95A6);
+}
+.Settings-main-content .filter-button .modal .modal-body .form-group  input:focus{
+    box-shadow: none;
+}
+.Settings-main-content .filter-button .modal .modal-body .form-group  input{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 1px solid #EEF0F5;
+}
+.Settings-main-content .filter-button .modal .modal-body .form-check{}
+.Settings-main-content .filter-button .modal .modal-body .form-check input{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+}
+.Settings-main-content .filter-button .modal .modal-body .form-check label {
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+    vertical-align: middle;
+    margin-left: 10px;
+    position: relative;
+    top: -4px;
+}
+.Settings-main-content .filter-button .modal .modal-footer {
+    border: 0;
+}
+.Settings-main-content .filter-button .modal .modal-footer button{
+    background: #028C96;
+border-radius: 5px;
+padding: 14px 32.62px 12px 32.62px;
+font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+    margin: 0;
+}
+.Settings-main-content .filter-button .modal .modal-footer button:first-child{
+    color: var(--color-028C96);
+    background: transparent;
+}
+
+/* ----------------------------------------------
+       Profile-wrapp end
+---------------------------------------------- */
+
+
+/* ----------------------------------------------
+        Profile-wrapp start
+---------------------------------------------- */
+.Settings-main-content .Profile-wrapp{
+    padding-top: 20px;
+    height: 100%;
+}
+.Settings-main-content .Profile-wrapp h2{
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18);
+    color: var(--color-1A0A26);
+    margin-bottom: 0;
+}
+.Settings-main-content .Profile-wrapp .box {
+    background: #fff;
+    margin-top: 30px;
+    border: 1px solid #EEF0F5;
+border-radius: 5px;
+
+}
+.Settings-main-content .Profile-wrapp .box .box-top {
+    padding: 18px 20px;
+    border-bottom: 1px solid #EEF0F5;
+}
+.Settings-main-content .Profile-wrapp .box .box-top h4{
+     font-weight: var(--font-weight-700);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 0;
+}
+.Settings-main-content .Profile-wrapp .media{
+    padding: 20px;
+}
+.Settings-main-content .Profile-wrapp .media img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.Settings-main-content .Profile-wrapp .media .media-body{
+    align-self: center;
+    margin-left: 20px;
+}
+.Settings-main-content .Profile-wrapp .media .media-body label{
+    background: #EEF0F5;
+border: 1px solid rgba(143, 149, 166, 0.4);
+border-radius: 5px;
+cursor: pointer;
+padding: 10px 15px;
+margin-bottom: 8px;
+     font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+}
+.Settings-main-content .Profile-wrapp .media .media-body input {
+    display: none;
+}
+.Settings-main-content .Profile-wrapp .media .media-body p {
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+}
+.Settings-main-content .Profile-wrapp form {
+    padding: 20px;
+}
+.Settings-main-content .Profile-wrapp form .mb-3 {
+    margin-bottom: 2.2rem!important;
+}
+.Settings-main-content .Profile-wrapp form  .form-floating {}
+.Settings-main-content .Profile-wrapp form  .form-floating input{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-16);
+    color: var(--color-1A0A26);
+}
+.form-floating select:focus,
+.form-floating input:focus{
+    box-shadow: none;
+}
+.Settings-main-content .Profile-wrapp form  .form-floating label{
+     font-weight: var(--font-weight-400);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-16);
+    color: var(--color-8F95A6);
+}
+.form-floating label span {
+    background: #fff;
+    display: inline-block;
+    padding: 0 5px;
+}
+.Settings-main-content .Profile-wrapp form  .form-floating select{
+ font-weight: var(--font-weight-500);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-16);
+    color: var(--color-1A0A26);
+}
+.Settings-main-content .Profile-wrapp form .form-floating>.form-control-plaintext~label,
+.Settings-main-content .Profile-wrapp form .form-floating>.form-control:focus~label, 
+.Settings-main-content .Profile-wrapp form .form-floating>.form-control:not(:placeholder-shown)~label,
+.Settings-main-content .Profile-wrapp form .form-floating>.form-select~label {
+    opacity: 1;
+    transform: scale(1) translateY(-1.5rem);
+}
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    opacity: 1;
+    transform: scale(1) translateY(-1.8rem);
+}
+.form-floating>.form-select {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+.form-floating>.form-control-plaintext:focus, .form-floating>.form-control-plaintext:not(:placeholder-shown), .form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+.form-floating>.form-control, .form-floating>.form-control-plaintext {
+    padding: 1rem 1.1rem;
+}
+.Settings-main-content .Profile-wrapp form .button-wrapp{}
+.Settings-main-content .Profile-wrapp form .button-wrapp button{
+    border: 1px solid #8F95A6;
+border-radius: 5px;
+padding: 14px 20px 12px 20px;
+ font-weight: var(--font-weight-600);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-16);
+    color: var(--color-1A0A26);
+    background: transparent;
+}
+.Settings-main-content .Profile-wrapp form .button-wrapp button.ChangeP{}
+.Settings-main-content .Profile-wrapp form .button-wrapp button.savebB{
+    background: #028C96;
+    border-color: #028C96;
+    color: #fff;
+    margin-left: 10px;
+}
 /* ----------------------------------------------
         end
 ---------------------------------------------- */
 
 
 /* ----------------------------------------------
-         start
+        email-wrapp start
 ---------------------------------------------- */
-.Settings-main-content {}
+.Settings-main-content .email-wrapp {}
+.Settings-main-content .email-wrapp h2 {
+     font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18);
+    color: var(--color-1A0A26);
+}
+.Settings-main-content .email-wrapp .item01 {
+    margin-top: 30px;
+background: #FFFFFF;
+border: 1px solid #EEF0F5;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+
+.Settings-main-content .email-wrapp .item01 .item-top{
+    border-bottom: 1px solid #EEF0F5;
+    padding: 18px 20px 16px 20px;
+
+}
+.Settings-main-content .email-wrapp .item01 .item-top h4{
+     font-weight: var(--font-weight-700);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 0;
+}
+.Settings-main-content .email-wrapp .item01 .item-bottom{
+    padding: 20px;
+}
+.Settings-main-content .email-wrapp .item01 .item-bottom p{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+    margin-bottom: 12px;
+}
+.Settings-main-content .email-wrapp .item01 .item-bottom p.unlink-p{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-12);
+    color: var(--color-515869);
+}
+.Settings-main-content .email-wrapp .item01 .item-bottom p.unlink-p span {
+    display: inline-block;
+    background: rgb(143 149 166 / 10%);
+    border-radius: 150px;
+    padding: 4px 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.Settings-main-content .email-wrapp .item01 .item-bottom p.unlink-p span img{
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.Settings-main-content .email-wrapp .item01 .item-bottom p.unlink-p  a{
+    color: var(--color-515869);
+}
+.Settings-main-content .email-wrapp .Email-Notification {
+    background: #FFFFFF;
+border: 1px solid #EEF0F5;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+.Settings-main-content .email-wrapp .Email-Notification .top-item{
+     border-bottom: 1px solid #EEF0F5;
+    padding: 18px 20px 16px 20px;
+}
+.Settings-main-content .email-wrapp .Email-Notification .top-item h4{
+     font-weight: var(--font-weight-700);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 0;
+}
+.Settings-main-content .email-wrapp .Email-Notification .top-bottom{
+    padding:14px 20px 20px 20px;
+}
+.Settings-main-content .email-wrapp .Email-Notification .top-bottom .form-check{
+    margin-bottom: 20px;
+}
+.Settings-main-content .email-wrapp .Email-Notification .top-bottom .form-check .form-check-input:checked {
+    background-color: #000000;
+    border-color: #000000;
+}
+.Settings-main-content .email-wrapp .Email-Notification .top-bottom .form-check input{}
+.Settings-main-content .email-wrapp .Email-Notification .top-bottom .form-check label{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+}
+.Settings-main-content .email-wrapp .Email-Notification .top-bottom .Listing-Date{
+    margin-bottom: 22px;
+}
+.Settings-main-content .email-wrapp .Email-Notification .top-bottom .Listing-Date h4{
+     font-weight: var(--font-weight-400);
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-12);
+    color: var(--color-8F95A6);
+    margin-bottom: 8px;
+}
+.Settings-main-content .email-wrapp .Email-Notification .top-bottom .Listing-Date p{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #EEF0F5;
+
+}
+
+.Settings-main-content .email-wrapp .Email-Notification .top-bottom .Listing-Date p img{
+    margin-left: 20px;
+}
+.Settings-main-content .email-wrapp .Email-Notification .button-Update{}
+.Settings-main-content .email-wrapp .Email-Notification .button-Update button{
+    background: #028C96;
+border-radius: 5px;
+padding: 14px 25px 12px 25px;
+font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+    border: 0;
+}
+.Settings-main-content .email-wrapp .text-editor{
+     background: #FFFFFF;
+border: 1px solid #EEF0F5;
+border-radius: 5px;
+}
+.Settings-main-content .email-wrapp .text-editor .text-top{
+     border-bottom: 1px solid #EEF0F5;
+    padding: 18px 20px 16px 20px;
+}
+.Settings-main-content .email-wrapp .text-editor .text-top h4{
+     font-weight: var(--font-weight-700);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 0;
+}
+.Settings-main-content .email-wrapp .note-editor.note-airframe .note-statusbar, .Settings-main-content .email-wrapp .note-editor.note-frame .note-statusbar {
+    background-color: transparent;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top: 0;
+}
+.Settings-main-content .email-wrapp .text-editor  .note-icon-caret:before{
+    display: none;
+}
+.Settings-main-content .email-wrapp .text-editor  .box-text{
+    padding: 20px;
+}
+.Settings-main-content .email-wrapp .text-editor .text-top #summernote{
+    z-index: 999999;
+}
+.Settings-main-content .email-wrapp .text-editor .text-bottom{
+    margin-top: 33px;
+}
+.Settings-main-content .email-wrapp .text-editor .text-bottom a{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+}
 /* ----------------------------------------------
-        end
+       email-wrapp end
 ---------------------------------------------- */
 
 
 /* ----------------------------------------------
-         start
+        User-Permissions start
 ---------------------------------------------- */
-.Settings-main-content {}
+.Settings-main-content .User-Permissions {}
+.Settings-main-content .User-Permissions h4{
+     font-weight: var(--font-weight-700);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 20px;
+}
+.Settings-main-content .User-Permissions .item{
+    margin-bottom: 15px;
+}
+.Settings-main-content .User-Permissions .item label{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-18);
+    color: var(--color-8F95A6);
+    margin-bottom: 10px;
+}
+.Settings-main-content .User-Permissions .item .d-flex{}
+.Settings-main-content .User-Permissions .item .d-flex button{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+    background: #FFFFFF;
+border: 1px solid rgba(143, 149, 166, 0.4);
+padding: 10px 40px;
+transition: all ease .6s;
+}
+.Settings-main-content .User-Permissions .item .d-flex button:first-child{
+    border-radius: 5px 0px 0px 5px;
+
+}
+.Settings-main-content .User-Permissions .item .d-flex button:last-child{
+    border-radius: 0px 5px 5px 0px;
+
+}
+.Settings-main-content .User-Permissions .item .d-flex button.active{
+    background: #028C96;
+    color: #fff;
+}
 /* ----------------------------------------------
-        end
+      User-Permissions  end
 ---------------------------------------------- */
 
 
 /* ----------------------------------------------
-         start
+        Deal-Stages start
 ---------------------------------------------- */
-.Settings-main-content {}
-/* ----------------------------------------------
-        end
----------------------------------------------- */
+.Settings-main-content .Deal-Stages{
+    padding-top: 20px;
+}
+.Settings-main-content .Deal-Stages .deal-top{
+    margin-bottom: 20px;
+}
+.Settings-main-content .Deal-Stages .deal-top h2{
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18); 
+    color: var(--color-1A0A26);
+    margin-bottom: 11px;
+}
+.Settings-main-content .Deal-Stages .deal-top p{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-12);
+    color: var(--color-515869);
+}
+.Settings-main-content .Deal-Stages .deal-new-stage {
+    margin-bottom: 20px;
+}
+.Settings-main-content .Deal-Stages .deal-new-stage button img{
+    margin-right: 13.75px;
+    vertical-align: middle;
+}
+.note-editor.note-airframe.fullscreen, .note-editor.note-frame.fullscreen {
+    background: #fff;
+}
+.Settings-main-content .Deal-Stages .deal-new-stage button{
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+    background: #028C96;
+border-radius: 5px;
+padding: 10px 15px;
+border: none;
+ vertical-align: middle;
+}
+.Settings-main-content .Deal-Stages .listing-deal{}
+.Settings-main-content .Deal-Stages .listing-deal .item{
+    margin-bottom: 20px;
+}
+.Settings-main-content .Deal-Stages .listing-deal .item a{
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+    background: #FFFFFF;
+border: 1px solid #EEF0F5;
+border-radius: 5px;
+padding: 16px 20px;
+}
+.Settings-main-content .Deal-Stages .listing-deal .item a .dealleft-item{
+     vertical-align: middle;
+     display: inline-block;
+}
+.Settings-main-content .Deal-Stages .listing-deal .item a .dealleft-item img{
+     vertical-align: middle;
+     margin-right: 14px;
+}
+.Settings-main-content .Deal-Stages .listing-deal .item a .dealleft-item span{
+     vertical-align: middle;
+     display: inline-block;
+}
+.Settings-main-content .Deal-Stages .listing-deal .item a .dealright-item{
+      vertical-align: middle;
+     display: inline-block;
+}
+.Settings-main-content .Deal-Stages .listing-deal .item a .dealright-item img{}
+.Settings-main-content .Deal-Stages .Deal-past{
+    position: relative;
+    padding: 0px 0 20px 0;
+    margin-bottom: 20px;
 
+}
+.Settings-main-content .Deal-Stages .Deal-past::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background: #8F95A6;
 
+}
+.Settings-main-content .Deal-Stages .Deal-past span {
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    padding: 0 10px;
+    background: #f7f9ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    display: inline-block;
+}
+.Settings-main-content .Deal-Stages{}
 /* ----------------------------------------------
-         start
----------------------------------------------- */
-.Settings-main-content {}
-/* ----------------------------------------------
-        end
+       Deal-Stages end
 ---------------------------------------------- */
 
 

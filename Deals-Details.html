@@ -1,5 +1,5 @@
 <!doctype html>
-    <html lang="en">
+<html lang="en">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -40,8 +40,8 @@
                     <div class="header-right align-self-center">
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="assests/images/user.png" alt="img" class="img-fluid user-img">
-                                <img src="assests/images/3-dot.svg" alt="img" class="img-fluid dot3-icon">
+                            <img src="assests/images/user.png" alt="img" class="img-fluid user-img">
+                            <img src="assests/images/3-dot.svg" alt="img" class="img-fluid dot3-icon">
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Refer a Friend</a></li>
@@ -691,9 +691,9 @@
                                                 <div class="accordion-item accordion-item1 accordion-item2">
                                                     <div class="d-flex accordin-flex justify-content-between">
                                                         <h2 class="accordion-header" id="headingTwo">
-                                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                                Notes
-                                                            </button>
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        Notes
+                                                        </button>
                                                         </h2>
                                                         <div class="right-button">
                                                             <button class="bg-transparent border-0 p-0" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assests/images/pluse.svg" alt=""></button>
@@ -713,14 +713,18 @@
                                                                 <div class="modal-body">
                                                                     <div class="form-floating">
                                                                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 300px"></textarea>
-                                                                        <label for="floatingTextarea2">Comments</label>
+                                                                        <label for="floatingTextarea2"><span>Comments</span></label>
                                                                     </div>
-                                                                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                                                                        <option selected>Tag</option>
-                                                                        <option value="1">One</option>
-                                                                        <option value="2">Two</option>
-                                                                        <option value="3">Three</option>
-                                                                    </select>
+                                                                    
+                                                                    <div class="form-floating">
+                                                                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                                                            <option selected>Tag</option>
+                                                                            <option value="1">One</option>
+                                                                            <option value="2">Two</option>
+                                                                            <option value="3">Three</option>
+                                                                        </select>
+                                                                        <label for="floatingSelect"><span>Tag</span></label>
+                                                                    </div>
                                                                     <div class="form-check">
                                                                         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
                                                                         <label class="form-check-label" for="flexCheckChecked">
@@ -813,7 +817,7 @@
                                                                         <div class="dropdown-center d-flex justify-content-end">
                                                                             <p class="text text-2 mb-0 align-self-center">Set a Due Date</p>
                                                                             <button class="btn btn-secondary dropdown-toggle align-self-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                                <img src="assests/images/3-dot.svg" alt="img" class="img-fluid">
+                                                                            <img src="assests/images/3-dot.svg" alt="img" class="img-fluid">
                                                                             </button>
                                                                             <ul class="dropdown-menu">
                                                                                 <li><a class="dropdown-item" href="#">Edit</a></li>
@@ -851,7 +855,7 @@
                                                                         <div class="dropdown-center d-flex justify-content-end">
                                                                             <p class="text text-2 mb-0 align-self-center">Set a Due Date</p>
                                                                             <button class="btn btn-secondary dropdown-toggle align-self-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                                <img src="assests/images/3-dot.svg" alt="img" class="img-fluid">
+                                                                            <img src="assests/images/3-dot.svg" alt="img" class="img-fluid">
                                                                             </button>
                                                                             <ul class="dropdown-menu">
                                                                                 <li><a class="dropdown-item" href="#">Edit</a></li>
@@ -1127,46 +1131,46 @@
         <!-- coustom js -->
         <script src="assests/js/script.js"></script>
         <script>
-            $(".timeline-wrapper .timeline-top .right-time ul li a.go-Configure").click(function(){
-                $(".timeline-wrapper .timeline-top-inner").hide();
-            });
-            $(".timeline-wrapper .timeline-top .right-time ul li a.go-Configure").click(function(){
-                $(".timeline-wrapper .timeline-bottom-wrapper").show();
-            });
-            $(".timeline-bottom-wrapper .timeline-top .right-time ul li a.View-timeline").click(function(){
-                $(".timeline-wrapper .timeline-bottom-wrapper").hide();
-            });
-            $(".timeline-bottom-wrapper .timeline-top .right-time ul li a.View-timeline").click(function(){
-                $(".timeline-wrapper .timeline-top-inner").show();
-            });
-            document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
-                const dropZoneElement = inputElement.closest(".drop-zone");
-                dropZoneElement.addEventListener("click", (e) => {
-                    inputElement.click();
-                });
-                inputElement.addEventListener("change", (e) => {
-                    if (inputElement.files.length) {
-                        updateThumbnail(dropZoneElement, inputElement.files[0]);
-                    }
-                });
-                dropZoneElement.addEventListener("dragover", (e) => {
-                    e.preventDefault();
-                    dropZoneElement.classList.add("drop-zone--over");
-                });
-                ["dragleave", "dragend"].forEach((type) => {
-                    dropZoneElement.addEventListener(type, (e) => {
-                        dropZoneElement.classList.remove("drop-zone--over");
-                    });
-                });
-                dropZoneElement.addEventListener("drop", (e) => {
-                    e.preventDefault();
-                    if (e.dataTransfer.files.length) {
-                        inputElement.files = e.dataTransfer.files;
-                        updateThumbnail(dropZoneElement, e.dataTransfer.files[0]);
-                    }
-                    dropZoneElement.classList.remove("drop-zone--over");
-                });
-            });
+        $(".timeline-wrapper .timeline-top .right-time ul li a.go-Configure").click(function(){
+        $(".timeline-wrapper .timeline-top-inner").hide();
+        });
+        $(".timeline-wrapper .timeline-top .right-time ul li a.go-Configure").click(function(){
+        $(".timeline-wrapper .timeline-bottom-wrapper").show();
+        });
+        $(".timeline-bottom-wrapper .timeline-top .right-time ul li a.View-timeline").click(function(){
+        $(".timeline-wrapper .timeline-bottom-wrapper").hide();
+        });
+        $(".timeline-bottom-wrapper .timeline-top .right-time ul li a.View-timeline").click(function(){
+        $(".timeline-wrapper .timeline-top-inner").show();
+        });
+        document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
+        const dropZoneElement = inputElement.closest(".drop-zone");
+        dropZoneElement.addEventListener("click", (e) => {
+        inputElement.click();
+        });
+        inputElement.addEventListener("change", (e) => {
+        if (inputElement.files.length) {
+        updateThumbnail(dropZoneElement, inputElement.files[0]);
+        }
+        });
+        dropZoneElement.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        dropZoneElement.classList.add("drop-zone--over");
+        });
+        ["dragleave", "dragend"].forEach((type) => {
+        dropZoneElement.addEventListener(type, (e) => {
+        dropZoneElement.classList.remove("drop-zone--over");
+        });
+        });
+        dropZoneElement.addEventListener("drop", (e) => {
+        e.preventDefault();
+        if (e.dataTransfer.files.length) {
+        inputElement.files = e.dataTransfer.files;
+        updateThumbnail(dropZoneElement, e.dataTransfer.files[0]);
+        }
+        dropZoneElement.classList.remove("drop-zone--over");
+        });
+        });
         /**
         * Updates the thumbnail on a drop zone element.
         *
@@ -1174,29 +1178,29 @@
         * @param {File} file
         */
         function updateThumbnail(dropZoneElement, file) {
-            let thumbnailElement = dropZoneElement.querySelector(".drop-zone__thumb");
+        let thumbnailElement = dropZoneElement.querySelector(".drop-zone__thumb");
         // First time - remove the prompt
         if (dropZoneElement.querySelector(".drop-zone__prompt")) {
-            dropZoneElement.querySelector(".drop-zone__prompt").remove();
+        dropZoneElement.querySelector(".drop-zone__prompt").remove();
         }
         // First time - there is no thumbnail element, so lets create it
         if (!thumbnailElement) {
-            thumbnailElement = document.createElement("div");
-            thumbnailElement.classList.add("drop-zone__thumb");
-            dropZoneElement.appendChild(thumbnailElement);
+        thumbnailElement = document.createElement("div");
+        thumbnailElement.classList.add("drop-zone__thumb");
+        dropZoneElement.appendChild(thumbnailElement);
         }
         thumbnailElement.dataset.label = file.name;
         // Show thumbnail for image files
         if (file.type.startsWith("image/")) {
-            const reader = new FileReader();
-            reader.readAsDataURL(file);
-            reader.onload = () => {
-                thumbnailElement.style.backgroundImage = `url('${reader.result}')`;
-            };
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = () => {
+        thumbnailElement.style.backgroundImage = `url('${reader.result}')`;
+        };
         } else {
-            thumbnailElement.style.backgroundImage = null;
+        thumbnailElement.style.backgroundImage = null;
         }
-    }
-</script>
-</body>
+        }
+        </script>
+    </body>
 </html>
