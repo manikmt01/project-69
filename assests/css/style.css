@@ -2908,7 +2908,9 @@ padding: 14px 20px 12px 20px;
 /* ----------------------------------------------
         email-wrapp start
 ---------------------------------------------- */
-.Settings-main-content .email-wrapp {}
+.Settings-main-content .email-wrapp {
+    padding-top: 20px;
+}
 .Settings-main-content .email-wrapp h2 {
      font-weight: var(--font-weight-700);
     font-size: var(--font-size-18);
@@ -3427,7 +3429,67 @@ font-weight: var(--font-weight-600);
 /* ----------------------------------------------
          start
 ---------------------------------------------- */
-.Settings-main-content {}
+.Settings-main-content .task-show0 {
+    background: #5158690d;
+    border-radius: 10px;
+    padding: 20px;
+}
+.Settings-main-content .task-show0 .day-item{
+    position: relative;
+}
+.Settings-main-content .task-show0 .day-item input{
+    padding: 18px 20px;
+        font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #8F95A6;
+    border-radius: 0;
+}
+.Settings-main-content .task-show0 .day-item label {
+    font-weight: var(--font-weight-400) !important;
+    font-size: var(--font-size-14) !important;
+    line-height: var(--line-height-14) !important;
+    color: var(--color-8F95A6) !important;
+    border: 0;
+    background: transparent;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 0;
+}
+/* Chrome, Safari, Edge, Opera */
+.Settings-main-content .task-show0 .day-item input::-webkit-outer-spin-button,
+.Settings-main-content .task-show0 .day-item input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.Settings-main-content .task-show0 .day-item input[type=number] {
+  -moz-appearance: textfield;
+}
+.Settings-main-content .task-show0 select{
+border: 1px solid #EEF0F5 !important;
+border-radius: 5px !important;
+padding: 18px 20px !important;
+color: #1A0A26 !important;
+
+}
+.Settings-main-content .task-show0 .d-item{
+    margin-right: 15px;
+    width: 156px;
+}
+.Settings-main-content .task-show0 .d-item1{
+    margin-right: 15px;
+    width: 134px;
+}
+.Settings-main-content .task-show0 .d-item2{
+    width: 268px;
+}
 /* ----------------------------------------------
         end
 ---------------------------------------------- */
@@ -3436,7 +3498,178 @@ font-weight: var(--font-weight-600);
 /* ----------------------------------------------
          start
 ---------------------------------------------- */
-.Settings-main-content {}
+.Settings-main-content .MessageTemplates{
+    padding-top: 20px;
+}
+.Settings-main-content .MessageTemplates .top-box{
+    margin-bottom: 20px;
+}
+.Settings-main-content .MessageTemplates .top-box ul{}
+.Settings-main-content .MessageTemplates .top-box ul li{}
+.Settings-main-content .MessageTemplates .top-box ul li:first-child button{
+    border-radius: 5px 0px 0px 5px;
+}
+.Settings-main-content .MessageTemplates .top-box ul li:last-child button{
+    border-radius: 0px 5px 5px 0px;
+}
+.Settings-main-content .MessageTemplates .top-box ul li button.active{
+    background: #028C96;
+    color: var(--color-FFFFFF);
+}
+.Settings-main-content .MessageTemplates .top-box ul li button{
+       font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    background: #FFFFFF;
+border: 1px solid rgba(143, 149, 166, 0.4);
+padding: 10px 38px;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button{}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal{}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-header{
+    border-bottom: 0;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-header h2{
+    margin-bottom: 0;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body{}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal{}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating{}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating input:focus{
+    border-color: #028C96;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating input{
+font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+border: 0;
+border-bottom: 1px solid #EEF0F5;
+border-radius: 0;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating label {
+font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control,
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control-plaintext,
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-select {
+    height: calc(3rem + 2px);
+    line-height: 1.25;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control-plaintext~label,
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control:focus~label,
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control:not(:placeholder-shown)~label,
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-select~label {
+    opacity: 1;
+    transform: scale(1) translateY(-1.4rem);
+    color: red;
+    color: #028C96;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav {}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav .nav-item {}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav .nav-item button.active{
+    border-color: #1A0A26;
+    color: #1A0A26;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav .nav-item button {
+    background: transparent;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    border-radius: 0;
+    border: 0;
+    border-bottom: 3px solid transparent;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .tab-content {}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-footer {
+    border-top: 0;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-footer button{
+    
+border-radius: 5px;
+padding: 12px 33px 14px 33px;
+font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+text-align: center;
+margin: 0;
+border: 0;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-footer button.Cancel{
+    color: #028C96;
+    padding: 12px 25px 14px 25px;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-footer button.Save{
+    color: #FFFFFF;
+    background: #028C96;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .tab-content .tab-pane {}
+.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .tab-content .tab-pane .form-register{}
+
+
+
+
+.Settings-main-content .MessageTemplates .top-box .right-template-button button.NewTemplate-button img{
+    margin-right: 10px;
+}
+.Settings-main-content .MessageTemplates .top-box .right-template-button button.NewTemplate-button{
+       font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+    background: #028C96;
+border-radius: 5px;
+padding: 10px 15px;
+border: 0;
+}
+.Settings-main-content .MessageTemplates .tab-content {}
+.Settings-main-content .MessageTemplates .tab-content .tab-pane{}
+.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates {
+    background: #fff;
+    min-height: 73.5vh;
+}
+.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template{
+    
+    background: #FFFFFF;
+border: 1px solid #EEF0F5;
+}
+.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template a.template-link{
+       font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    align-self: center;
+    padding: 17px 20px;
+    width: 100%;
+}
+.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template:hover ul{
+    display: block;
+    opacity: 1;
+}
+.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template ul{
+    display: none;
+    opacity: 0;
+    transition: all ease .4s;
+    padding: 15px 20px;
+    align-self: center;
+}
+.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template ul li{}
+.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template ul li:last-child a{
+    margin-right: 0;
+}
+.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template ul li a{
+    margin-right: 15px;
+}
+.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template ul li a img{
+    max-width: 18px;
+}
+.Settings-main-content .MessageTemplates{}
+.Settings-main-content .MessageTemplates{}
 /* ----------------------------------------------
         end
 ---------------------------------------------- */
@@ -3445,7 +3678,50 @@ font-weight: var(--font-weight-600);
 /* ----------------------------------------------
          start
 ---------------------------------------------- */
-.Settings-main-content {}
+
+ .form-register {
+    margin-top: 30px;
+ }
+.form-register .form-upload {
+    margin: 5px 0;
+    display: flex;
+}
+.form-register .form-upload label img{
+    margin-right: 5px;
+}
+.form-register .form-upload label {
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    position: relative;
+    cursor: pointer;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    align-items: center;
+
+    display: flex;
+}
+ .form-register .form-upload label:hover {
+     opacity: 0.7;
+}
+ .form-register .form-upload label .file-upload {
+     position: absolute;
+     left: -9999px;
+}
+.form-register .form-upload p {
+    margin-left: 20px;
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    align-items: center;
+    margin-bottom: 0;
+    position: relative;
+    top: 6px;
+}
+ 
 /* ----------------------------------------------
         end
 ---------------------------------------------- */
