@@ -3235,7 +3235,6 @@ padding: 16px 20px;
     z-index: 9;
     display: inline-block;
 }
-.Settings-main-content .Deal-Stages{}
 /* ----------------------------------------------
        Deal-Stages end
 ---------------------------------------------- */
@@ -3244,7 +3243,182 @@ padding: 16px 20px;
 /* ----------------------------------------------
          start
 ---------------------------------------------- */
-.Settings-main-content {}
+.Settings-main-content .Deal-Upcoming-Listing {
+    padding-top: 20px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .back-link {
+    margin-bottom: 45px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .back-link a{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-16);
+    color: var(--color-515869);
+}
+.Settings-main-content .Deal-Upcoming-Listing .back-link a img{
+    margin-right: 10px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .up-list{
+    margin-bottom: 31px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .up-list h4{
+     font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18);
+    color: var(--color-515869);
+    margin-right: 10px;
+    margin-bottom: 0;
+    align-self: center;
+}
+.Settings-main-content .Deal-Upcoming-Listing .up-list button{
+     font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-028C96);
+    background: var(--color-FFFFFF);
+border: 1px solid #028C96;
+border-radius: 17px;
+padding: 10px 25px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .up-list button.Selling{}
+.Settings-main-content .Deal-Upcoming-Listing .up-list button.edit{
+    background: transparent;
+    border: transparent;
+    padding: 10px 17px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal:last-child{
+    margin-bottom: 0;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal{
+background: #FFFFFF;
+border: 1px solid #EEF0F5;
+border-radius: 5px;
+margin-bottom: 20px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-top-deal{
+    padding: 20px;
+    border-bottom: 1px solid #EEF0F5;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-top-deal h4{
+     font-weight: var(--font-weight-600);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-16);
+    color: var(--color-1A0A26);
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-top-deal h4 img{
+     margin-right: 10px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-top-deal button.align-self-center {
+    border: 0;
+    background: transparent;
+    padding: 2px 15px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-inner-deal{
+    padding: 20px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-inner-deal a.com-item:last-child{
+    margin-bottom: 0;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-inner-deal a.com-item{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 25px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-inner-deal a.com-item span{
+    display: inline-block;
+    align-self: center;
+    margin: 0 6.5px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-inner-deal a.com-item span.img1{
+    margin-left: 0;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-inner-deal a.com-item span.text{}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-inner-deal a.com-item span.color{
+    color: var(--color-028C96);
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-inner-deal a.com-item span.img-arrow{}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal{}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog{}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-content{}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-content .modal-header{
+    border-bottom: 0px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-content .modal-header h2{
+    margin-bottom: 0;
+     font-weight: var(--font-weight-700);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-16);
+    color: var(--color-1A0A26);
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-content .modal-header p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-body {
+    padding: 0 20px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-body .inner-contet{}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-body .inner-contet{}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-body .inner-contet  input:focus{
+    box-shadow: none;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-body .inner-contet  input[type=text],
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-body .inner-contet  input[type=text]{
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    padding-bottom: 10px;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #EEF0F5;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-body .inner-contet  label{
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-body .inner-contet select:focus{
+    box-shadow: none;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-body .inner-contet select{
+    font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    padding-bottom: 10px;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #EEF0F5;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-footer{
+    border-top: 0;
+}
+
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-footer button{
+    background: #028C96;
+border-radius: 5px;
+padding: 14px 35px 12px 35px;
+font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+    margin: 0;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-footer button.Cancel{
+    color: #028C96;
+    background: transparent;
+    padding: padding: 14px 30px 12px 30px;
+
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal  .modal-lg,
+ .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal  .modal-xl {
+    --bs-modal-width: 670px;
+}
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-footer button.Add{}
 /* ----------------------------------------------
         end
 ---------------------------------------------- */
