@@ -3525,21 +3525,63 @@ color: #1A0A26 !important;
 border: 1px solid rgba(143, 149, 166, 0.4);
 padding: 10px 38px;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button{}
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal{}
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-header{
+.Settings-main-content .MessageTemplates .right-template-button{}
+.Settings-main-content .MessageTemplates  .right-template-button .modal{}
+.Settings-main-content .MessageTemplates  .right-template-button .modal .modal-header{
     border-bottom: 0;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-header h2{
+.Settings-main-content .MessageTemplates  .right-template-button .modal .modal-header h2{
     margin-bottom: 0;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body{}
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal{}
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating{}
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating input:focus{
+.Settings-main-content .MessageTemplates  .right-template-button .modal .modal-body{}
+.Settings-main-content .MessageTemplates  .right-template-button .modal .modal-body .MessageTemplate-modal{}
+.Settings-main-content .MessageTemplates  .right-template-button .modal .modal-body .MessageTemplate-modal2{}
+.Settings-main-content .MessageTemplates  .right-template-button .modal .modal-body .MessageTemplate-modal2 .form-group{}
+.Settings-main-content .MessageTemplates  .right-template-button .modal .modal-body .MessageTemplate-modal2 .form-group label{
+ font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-028C96);
+}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal3 .form-group .form-select{
+    color: #1A0A26;
+    font-weight: var(--font-weight-500);
+}
+.Settings-main-content .MessageTemplates  .right-template-button .modal .modal-body .MessageTemplate-modal3 .form-group label{
+     font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal2 .form-group input {
+    border: 0;
+    border-bottom: 1px solid #EEF0F5;
+    border-radius: 0;
+     font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    padding-bottom: 10px;
+}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal2 .form-select:focus,
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal2 .form-group input{
+    box-shadow: none;
+}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal2 .form-select{
+    border: 0;
+    border-bottom: 1px solid #EEF0F5;
+    border-radius: 0;
+     font-weight: var(--font-weight-400);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    padding-bottom: 10px;
+}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating{}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating input:focus{
     border-color: #028C96;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating input{
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating input{
 font-weight: var(--font-weight-400);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
@@ -3548,34 +3590,34 @@ border: 0;
 border-bottom: 1px solid #EEF0F5;
 border-radius: 0;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating label {
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating label {
 font-weight: var(--font-weight-400);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-8F95A6);
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control,
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control-plaintext,
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-select {
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control,
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control-plaintext,
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-select {
     height: calc(3rem + 2px);
     line-height: 1.25;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control-plaintext~label,
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control:focus~label,
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control:not(:placeholder-shown)~label,
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-select~label {
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control-plaintext~label,
+.Settings-main-content .MessageTemplates.right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control:focus~label,
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-control:not(:placeholder-shown)~label,
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating>.form-select~label {
     opacity: 1;
     transform: scale(1) translateY(-1.4rem);
     color: red;
     color: #028C96;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav {}
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav .nav-item {}
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav .nav-item button.active{
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav {}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav .nav-item {}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav .nav-item button.active{
     border-color: #1A0A26;
     color: #1A0A26;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav .nav-item button {
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal ul.nav .nav-item button {
     background: transparent;
     font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
@@ -3585,11 +3627,11 @@ font-weight: var(--font-weight-400);
     border: 0;
     border-bottom: 3px solid transparent;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .tab-content {}
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-footer {
+.Settings-main-content .MessageTemplates.right-template-button .modal .modal-body .MessageTemplate-modal .tab-content {}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-footer {
     border-top: 0;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-footer button{
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-footer button{
     
 border-radius: 5px;
 padding: 12px 33px 14px 33px;
@@ -3600,24 +3642,40 @@ text-align: center;
 margin: 0;
 border: 0;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-footer button.Cancel{
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-footer button.Cancel{
     color: #028C96;
     padding: 12px 25px 14px 25px;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-footer button.Save{
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-footer button.Save{
     color: #FFFFFF;
     background: #028C96;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .tab-content .tab-pane {}
-.Settings-main-content .MessageTemplates .top-box .right-template-button .modal .modal-body .MessageTemplate-modal .tab-content .tab-pane .form-register{}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .tab-content .tab-pane {}
+.Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .tab-content .tab-pane .form-register{}
 
 
 
-
-.Settings-main-content .MessageTemplates .top-box .right-template-button button.NewTemplate-button img{
+.Settings-main-content .MessageTemplates .top-text{
+    margin-bottom: 20px;
+}
+.Settings-main-content .MessageTemplates .top-text h2{
+    font-weight: 700;
+font-size: 18px;
+line-height: 18px;
+color: #1A0A26;
+margin-bottom: 11px;
+}
+.Settings-main-content .MessageTemplates .top-text p{
+    margin-bottom:0;
+ font-weight: var(--font-weight-500);
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-12);
+    color: var(--color-515869);
+}
+.Settings-main-content .MessageTemplates  .right-template-button button.NewTemplate-button img{
     margin-right: 10px;
 }
-.Settings-main-content .MessageTemplates .top-box .right-template-button button.NewTemplate-button{
+.Settings-main-content .MessageTemplates  .right-template-button button.NewTemplate-button{
        font-weight: var(--font-weight-600);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
@@ -3627,18 +3685,49 @@ border-radius: 5px;
 padding: 10px 15px;
 border: 0;
 }
+.Settings-main-content .MessageTemplates .right-template-button.right-template-button02 {
+    margin-top: -53px;
+    margin-bottom: 20px;
+}
 .Settings-main-content .MessageTemplates .tab-content {}
 .Settings-main-content .MessageTemplates .tab-content .tab-pane{}
-.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates {
+.Settings-main-content .MessageTemplates.MessageTemplates2  .tab-content-templates {
+    background: transparent;
+}
+.Settings-main-content .MessageTemplates  .tab-content-templates {
     background: #fff;
     min-height: 73.5vh;
 }
-.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template{
+.Settings-main-content .MessageTemplates.MessageTemplates2 .tab-content-templates .item-template{
+    background: transparent;
+}
+.Settings-main-content .MessageTemplates .tab-content-templates .item-template{
     
     background: #FFFFFF;
 border: 1px solid #EEF0F5;
 }
-.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template a.template-link{
+.Settings-main-content .MessageTemplates  .tab-content-templates .item-template a.template-link span small{
+margin-top: 5px;
+  font-weight: var(--font-weight-500);
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-12);
+    color: var(--color-8F95A6);
+}
+.Settings-main-content .MessageTemplates  .tab-content-templates .item-template a.template-link span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.Settings-main-content .MessageTemplates  .tab-content-templates .item-template a.template-link img{
+    vertical-align: middle;
+    margin-right: 14px;
+}
+.Settings-main-content .MessageTemplates.MessageTemplates2  .tab-content-templates .item-template {
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.Settings-main-content .MessageTemplates  .tab-content-templates .item-template a.template-link{
        font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
@@ -3647,25 +3736,25 @@ border: 1px solid #EEF0F5;
     padding: 17px 20px;
     width: 100%;
 }
-.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template:hover ul{
+.Settings-main-content .MessageTemplates .tab-content-templates .item-template:hover ul{
     display: block;
     opacity: 1;
 }
-.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template ul{
+.Settings-main-content .MessageTemplates  .tab-content-templates .item-template ul{
     display: none;
     opacity: 0;
     transition: all ease .4s;
     padding: 15px 20px;
     align-self: center;
 }
-.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template ul li{}
-.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template ul li:last-child a{
+.Settings-main-content .MessageTemplates .tab-content-templates .item-template ul li{}
+.Settings-main-content .MessageTemplates  .tab-content-templates .item-template ul li:last-child a{
     margin-right: 0;
 }
-.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template ul li a{
+.Settings-main-content .MessageTemplates .tab-content-templates .item-template ul li a{
     margin-right: 15px;
 }
-.Settings-main-content .MessageTemplates .tab-content .tab-pane .tab-content-templates .item-template ul li a img{
+.Settings-main-content .MessageTemplates  .tab-content-templates .item-template ul li a img{
     max-width: 18px;
 }
 .Settings-main-content .MessageTemplates{}
@@ -3728,11 +3817,78 @@ border: 1px solid #EEF0F5;
 
 
 /* ----------------------------------------------
-         start
+        Workflows-wrapp start
 ---------------------------------------------- */
-.Settings-main-content {}
+.Settings-main-content .Workflows-wrapp{
+    padding-top: 20px;
+}
+.Settings-main-content .Workflows-wrapp .top-Workflows{
+    padding-bottom: 30px;
+}
+.Settings-main-content .Workflows-wrapp .top-Workflows .right-workflows{}
+.Settings-main-content .Workflows-wrapp .top-Workflows .right-workflows button{
+    padding: 8px 15px;
+    background: #028C96;
+border-radius: 5px;
+font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
+    border: 0;
+}
+.Settings-main-content .Workflows-wrapp .top-Workflows h2{
+     font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18);
+    color: var(--color-1A0A26);
+    margin-bottom: 11px;
+}
+.Settings-main-content .Workflows-wrapp .top-Workflows p{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-12);
+    color: var(--color-515869);
+    margin-bottom: 0;
+}
+.Settings-main-content .Workflows-wrapp .table-responsive{}
+.Settings-main-content .Workflows-wrapp .table-responsive table{
+    border: 1px solid #EEF0F5;
+    background: #FFFFFF;
+}
+.Settings-main-content .Workflows-wrapp .table-responsive table thead{}
+.Settings-main-content .Workflows-wrapp .table-responsive table thead tr{}
+.Settings-main-content .Workflows-wrapp .table-responsive table thead tr th{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+    padding: 17px 20px;
+    vertical-align: middle;
+}
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody {}
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr {}
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td{
+     font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    padding: 15px 20px;
+    vertical-align: middle;
+}
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td span{}
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td .d-flex{}
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td .d-flex button{
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+    padding: 0;
+}
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td .d-flex button.edit{
+    margin-right: 15px;
+}
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td .d-flex button.delete {}
 /* ----------------------------------------------
-        end
+       Workflows-wrapp end
 ---------------------------------------------- */
 
 
