@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="description" content="Web Content">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="author">
-    <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta http-equiv="content-script-type" content="text/javascript">
-    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="description" content="Web Content">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="author">
+        <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="content-script-type" content="text/javascript">
+        <meta http-equiv="x-dns-prefetch-control" content="on">
         <!--  <link rel="apple-touch-icon" sizes="180x180" href="assests/images/fav_icon.png">
         <link rel="icon" type="image/png" sizes="192x192" href="assests/images/fav_icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assests/images/fav_icon.png">
@@ -40,8 +40,8 @@
                     <div class="header-right align-self-center">
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="assests/images/user.png" alt="img" class="img-fluid user-img">
-                                <img src="assests/images/3-dot.svg" alt="img" class="img-fluid dot3-icon">
+                            <img src="assests/images/user.png" alt="img" class="img-fluid user-img">
+                            <img src="assests/images/3-dot.svg" alt="img" class="img-fluid dot3-icon">
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Refer a Friend</a></li>
@@ -341,22 +341,21 @@
         <!-- coustom js -->
         <script src="assests/js/script.js"></script>
         <script>
-            $(document).ready(function() {
-                $('#summernote').summernote({
-                    placeholder: 'Mark <br> Client Success Manager',
-                    tabsize: 2,
-                    height: 215
-                });
-            });
+        $(document).ready(function() {
+        $('#summernote').summernote({
+        placeholder: 'Mark <br> Client Success Manager',
+        tabsize: 2,
+        height: 215
+        });
+        });
         </script>
         <script>
-            $('#file-upload-1').change(function() {
-                var filepath = this.value;
-                var m = filepath.match(/([^\/\\]+)$/);
-                var filename = m[1];
-                $('#filename-1').html(filename);
-            });
-
+        $('#file-upload-1').change(function() {
+        var filepath = this.value;
+        var m = filepath.match(/([^\/\\]+)$/);
+        var filename = m[1];
+        $('#filename-1').html(filename);
+        });
         </script>
     </body>
-    </html>
+</html>

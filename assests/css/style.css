@@ -673,7 +673,6 @@ contact-top start
     margin-left: 8px;
 }
 .contacts-wrapper .table-responsive{}
-
 .contacts-wrapper .table-responsive table{
     margin-bottom: 0;
     border-radius: 10px;
@@ -2400,27 +2399,22 @@ end
     color: var(--color-FFFFFF);
 }
 .calender-wrapper .calender-filter button{}
-
-
 /* ----------------------------------------------
-        Settings-main-content start
+Settings-main-content start
 ---------------------------------------------- */
 .Settings-main-content {}
 /* ----------------------------------------------
-        Settings-main-content end
+Settings-main-content end
 ---------------------------------------------- */
-
 /* ----------------------------------------------
-        user-details start
+user-details start
 ---------------------------------------------- */
 .Settings-main-content .user-details{}
 /* ----------------------------------------------
-       user-details end
+user-details end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-         start
+start
 ---------------------------------------------- */
 .Settings-main-content .Settings-left {
     padding: 20px 0;
@@ -2432,10 +2426,9 @@ end
     margin-bottom: 0;
 }
 .Settings-main-content .Settings-left .item-commonSet h4{
-margin-bottom: 14px;
-padding: 0 20px;
-
-font-weight: var(--font-weight-700);
+    margin-bottom: 14px;
+    padding: 0 20px;
+    font-weight: var(--font-weight-700);
     font-size: var(--font-size-18);
     line-height: var(--line-height-18);
     color: var(--color-1A0A26);
@@ -2443,9 +2436,9 @@ font-weight: var(--font-weight-700);
 .Settings-main-content .Settings-left .item-commonSet ul{}
 .Settings-main-content .Settings-left .item-commonSet ul li{}
 .Settings-main-content .Settings-left .item-commonSet ul li a{
-padding: 16px 20px 12px 20px;
-display: block;
-font-weight: var(--font-weight-500);
+    padding: 16px 20px 12px 20px;
+    display: block;
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-515869);
@@ -2457,24 +2450,20 @@ font-weight: var(--font-weight-500);
 .Settings-main-content .Settings-left .item-start{}
 .Settings-main-content .Settings-left .item-end{}
 /* ----------------------------------------------
-        end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-         collaborate-tab-inner start
+collaborate-tab-inner start
 ---------------------------------------------- */
 .Settings-main-content .collaborate-tab-inner {
     padding-top: 20px;
 }
-
 .Settings-main-content .collaborate-tab-inner table {
     margin-bottom: 0;
     border-radius: 10px;
     border: 1px solid #EEF0F5;
     border-bottom: 0;
     background: var(--color-FFFFFF);
-
 }
 .Settings-main-content .collaborate-tab-inner  table thead{}
 .Settings-main-content .collaborate-tab-inner  table thead tr{}
@@ -2495,7 +2484,6 @@ font-weight: var(--font-weight-500);
 .Settings-main-content .collaborate-tab-inner  table thead tr th .form-check input {}
 .Settings-main-content .collaborate-tab-inner  table tbody{}
 .Settings-main-content .collaborate-tab-inner  table tbody tr:last-child{}
-
 .Settings-main-content .collaborate-tab-inner  table tbody tr td {
     font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
@@ -2505,7 +2493,6 @@ font-weight: var(--font-weight-500);
 }
 .Settings-main-content .collaborate-tab-inner  table tbody tr td:first-child{
     padding: 15px 20px;
-
 }
 .Settings-main-content .collaborate-tab-inner  table tbody tr td .form-check{}
 .Settings-main-content .collaborate-tab-inner  table tbody tr td .form-check input{}
@@ -2515,13 +2502,12 @@ font-weight: var(--font-weight-500);
     height: 24px;
     border-radius: 50%;
 }
-
 .Settings-main-content .collaborate-tab-inner  table tbody tr td .media .media-body{
     align-self: center;
     margin-left: 10px;
 }
 .Settings-main-content .collaborate-tab-inner  table tbody tr td .media .media-body small{
-font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-12);
     line-height: var(--line-height-12);
     color: var(--color-8F95A6);
@@ -2574,12 +2560,10 @@ font-weight: var(--font-weight-500);
     border-color: #EEF0F5 !important;
 }
 /* ----------------------------------------------
-       collaborate-tab-inner end
+collaborate-tab-inner end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-        Collaborators start
+Collaborators start
 ---------------------------------------------- */
 .Settings-main-content .Collaborators {
     padding-top: 20px;
@@ -2606,7 +2590,7 @@ font-weight: var(--font-weight-500);
 .Settings-main-content .Collaborators .collaborate-button ul.nav-pills li{}
 .Settings-main-content .Collaborators .collaborate-button ul.nav-pills li:last-child button{
     border: 1px solid rgba(143, 149, 166, 0.4);
-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
 }
 .Settings-main-content .Collaborators .collaborate-button ul.nav-pills li button.active{
     border: 1px solid #028C96;
@@ -2628,7 +2612,7 @@ border-radius: 0px 5px 5px 0px;
     margin-bottom: 20px;
 }
 .Settings-main-content .Collaborators .filter-button button{
-   
+
 }
 .Settings-main-content .Collaborators .filter-button button img{
     margin-right: 10px;
@@ -2636,32 +2620,30 @@ border-radius: 0px 5px 5px 0px;
     top: -2px;
 }
 .Settings-main-content .Collaborators .filter-button button.Filter-btn{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-FFFFFF);
     background: #028C96;
-border-radius: 5px;
-padding: 10px 15px;
-border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 0;
 }
 .Settings-main-content .Collaborators .filter-button button.New-Vendor-btn{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-FFFFFF);
     background: #028C96;
-border-radius: 5px;
-padding: 10px 15px;
-border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 0;
 }
 /* ----------------------------------------------
-       Collaborators end
+Collaborators end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-         start
+start
 ---------------------------------------------- */
 .Settings-main-content .filter-button{}
 .Settings-main-content .filter-button{}
@@ -2743,9 +2725,9 @@ border: 0;
 }
 .Settings-main-content .filter-button .modal .modal-footer button{
     background: #028C96;
-border-radius: 5px;
-padding: 14px 32.62px 12px 32.62px;
-font-weight: var(--font-weight-600);
+    border-radius: 5px;
+    padding: 14px 32.62px 12px 32.62px;
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-FFFFFF);
@@ -2755,14 +2737,11 @@ font-weight: var(--font-weight-600);
     color: var(--color-028C96);
     background: transparent;
 }
-
 /* ----------------------------------------------
-       Profile-wrapp end
+Profile-wrapp end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-        Profile-wrapp start
+Profile-wrapp start
 ---------------------------------------------- */
 .Settings-main-content .Profile-wrapp{
     padding-top: 20px;
@@ -2779,15 +2758,14 @@ font-weight: var(--font-weight-600);
     background: #fff;
     margin-top: 30px;
     border: 1px solid #EEF0F5;
-border-radius: 5px;
-
+    border-radius: 5px;
 }
 .Settings-main-content .Profile-wrapp .box .box-top {
     padding: 18px 20px;
     border-bottom: 1px solid #EEF0F5;
 }
 .Settings-main-content .Profile-wrapp .box .box-top h4{
-     font-weight: var(--font-weight-700);
+    font-weight: var(--font-weight-700);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-1A0A26);
@@ -2807,12 +2785,12 @@ border-radius: 5px;
 }
 .Settings-main-content .Profile-wrapp .media .media-body label{
     background: #EEF0F5;
-border: 1px solid rgba(143, 149, 166, 0.4);
-border-radius: 5px;
-cursor: pointer;
-padding: 10px 15px;
-margin-bottom: 8px;
-     font-weight: var(--font-weight-600);
+    border: 1px solid rgba(143, 149, 166, 0.4);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-515869);
@@ -2821,7 +2799,7 @@ margin-bottom: 8px;
     display: none;
 }
 .Settings-main-content .Profile-wrapp .media .media-body p {
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-515869);
@@ -2834,7 +2812,7 @@ margin-bottom: 8px;
 }
 .Settings-main-content .Profile-wrapp form  .form-floating {}
 .Settings-main-content .Profile-wrapp form  .form-floating input{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-16);
     line-height: var(--line-height-16);
     color: var(--color-1A0A26);
@@ -2844,7 +2822,7 @@ margin-bottom: 8px;
     box-shadow: none;
 }
 .Settings-main-content .Profile-wrapp form  .form-floating label{
-     font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-400);
     font-size: var(--font-size-16);
     line-height: var(--line-height-16);
     color: var(--color-8F95A6);
@@ -2855,13 +2833,13 @@ margin-bottom: 8px;
     padding: 0 5px;
 }
 .Settings-main-content .Profile-wrapp form  .form-floating select{
- font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-16);
     line-height: var(--line-height-16);
     color: var(--color-1A0A26);
 }
 .Settings-main-content .Profile-wrapp form .form-floating>.form-control-plaintext~label,
-.Settings-main-content .Profile-wrapp form .form-floating>.form-control:focus~label, 
+.Settings-main-content .Profile-wrapp form .form-floating>.form-control:focus~label,
 .Settings-main-content .Profile-wrapp form .form-floating>.form-control:not(:placeholder-shown)~label,
 .Settings-main-content .Profile-wrapp form .form-floating>.form-select~label {
     opacity: 1;
@@ -2885,9 +2863,9 @@ margin-bottom: 8px;
 .Settings-main-content .Profile-wrapp form .button-wrapp{}
 .Settings-main-content .Profile-wrapp form .button-wrapp button{
     border: 1px solid #8F95A6;
-border-radius: 5px;
-padding: 14px 20px 12px 20px;
- font-weight: var(--font-weight-600);
+    border-radius: 5px;
+    padding: 14px 20px 12px 20px;
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-16);
     line-height: var(--line-height-16);
     color: var(--color-1A0A26);
@@ -2901,37 +2879,33 @@ padding: 14px 20px 12px 20px;
     margin-left: 10px;
 }
 /* ----------------------------------------------
-        end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-        email-wrapp start
+email-wrapp start
 ---------------------------------------------- */
 .Settings-main-content .email-wrapp {
     padding-top: 20px;
 }
 .Settings-main-content .email-wrapp h2 {
-     font-weight: var(--font-weight-700);
+    font-weight: var(--font-weight-700);
     font-size: var(--font-size-18);
     line-height: var(--line-height-18);
     color: var(--color-1A0A26);
 }
 .Settings-main-content .email-wrapp .item01 {
     margin-top: 30px;
-background: #FFFFFF;
-border: 1px solid #EEF0F5;
-border-radius: 5px;
-margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EEF0F5;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
-
 .Settings-main-content .email-wrapp .item01 .item-top{
     border-bottom: 1px solid #EEF0F5;
     padding: 18px 20px 16px 20px;
-
 }
 .Settings-main-content .email-wrapp .item01 .item-top h4{
-     font-weight: var(--font-weight-700);
+    font-weight: var(--font-weight-700);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-1A0A26);
@@ -2941,14 +2915,14 @@ margin-bottom: 20px;
     padding: 20px;
 }
 .Settings-main-content .email-wrapp .item01 .item-bottom p{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-515869);
     margin-bottom: 12px;
 }
 .Settings-main-content .email-wrapp .item01 .item-bottom p.unlink-p{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-12);
     line-height: var(--line-height-12);
     color: var(--color-515869);
@@ -2970,16 +2944,16 @@ margin-bottom: 20px;
 }
 .Settings-main-content .email-wrapp .Email-Notification {
     background: #FFFFFF;
-border: 1px solid #EEF0F5;
-border-radius: 5px;
-margin-bottom: 20px;
+    border: 1px solid #EEF0F5;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 .Settings-main-content .email-wrapp .Email-Notification .top-item{
-     border-bottom: 1px solid #EEF0F5;
+    border-bottom: 1px solid #EEF0F5;
     padding: 18px 20px 16px 20px;
 }
 .Settings-main-content .email-wrapp .Email-Notification .top-item h4{
-     font-weight: var(--font-weight-700);
+    font-weight: var(--font-weight-700);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-1A0A26);
@@ -2997,7 +2971,7 @@ margin-bottom: 20px;
 }
 .Settings-main-content .email-wrapp .Email-Notification .top-bottom .form-check input{}
 .Settings-main-content .email-wrapp .Email-Notification .top-bottom .form-check label{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-515869);
@@ -3006,14 +2980,14 @@ margin-bottom: 20px;
     margin-bottom: 22px;
 }
 .Settings-main-content .email-wrapp .Email-Notification .top-bottom .Listing-Date h4{
-     font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-400);
     font-size: var(--font-size-12);
     line-height: var(--line-height-12);
     color: var(--color-8F95A6);
     margin-bottom: 8px;
 }
 .Settings-main-content .email-wrapp .Email-Notification .top-bottom .Listing-Date p{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-8F95A6);
@@ -3021,34 +2995,32 @@ margin-bottom: 20px;
     padding-bottom: 10px;
     margin-bottom: 0;
     border-bottom: 1px solid #EEF0F5;
-
 }
-
 .Settings-main-content .email-wrapp .Email-Notification .top-bottom .Listing-Date p img{
     margin-left: 20px;
 }
 .Settings-main-content .email-wrapp .Email-Notification .button-Update{}
 .Settings-main-content .email-wrapp .Email-Notification .button-Update button{
     background: #028C96;
-border-radius: 5px;
-padding: 14px 25px 12px 25px;
-font-weight: var(--font-weight-600);
+    border-radius: 5px;
+    padding: 14px 25px 12px 25px;
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-FFFFFF);
     border: 0;
 }
 .Settings-main-content .email-wrapp .text-editor{
-     background: #FFFFFF;
-border: 1px solid #EEF0F5;
-border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #EEF0F5;
+    border-radius: 5px;
 }
 .Settings-main-content .email-wrapp .text-editor .text-top{
-     border-bottom: 1px solid #EEF0F5;
+    border-bottom: 1px solid #EEF0F5;
     padding: 18px 20px 16px 20px;
 }
 .Settings-main-content .email-wrapp .text-editor .text-top h4{
-     font-weight: var(--font-weight-700);
+    font-weight: var(--font-weight-700);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-1A0A26);
@@ -3073,22 +3045,20 @@ border-radius: 5px;
     margin-top: 33px;
 }
 .Settings-main-content .email-wrapp .text-editor .text-bottom a{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-515869);
 }
 /* ----------------------------------------------
-       email-wrapp end
+email-wrapp end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-        User-Permissions start
+User-Permissions start
 ---------------------------------------------- */
 .Settings-main-content .User-Permissions {}
 .Settings-main-content .User-Permissions h4{
-     font-weight: var(--font-weight-700);
+    font-weight: var(--font-weight-700);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-1A0A26);
@@ -3098,7 +3068,7 @@ border-radius: 5px;
     margin-bottom: 15px;
 }
 .Settings-main-content .User-Permissions .item label{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-18);
     color: var(--color-8F95A6);
@@ -3106,34 +3076,30 @@ border-radius: 5px;
 }
 .Settings-main-content .User-Permissions .item .d-flex{}
 .Settings-main-content .User-Permissions .item .d-flex button{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-515869);
     background: #FFFFFF;
-border: 1px solid rgba(143, 149, 166, 0.4);
-padding: 10px 40px;
-transition: all ease .6s;
+    border: 1px solid rgba(143, 149, 166, 0.4);
+    padding: 10px 40px;
+    transition: all ease .6s;
 }
 .Settings-main-content .User-Permissions .item .d-flex button:first-child{
     border-radius: 5px 0px 0px 5px;
-
 }
 .Settings-main-content .User-Permissions .item .d-flex button:last-child{
     border-radius: 0px 5px 5px 0px;
-
 }
 .Settings-main-content .User-Permissions .item .d-flex button.active{
     background: #028C96;
     color: #fff;
 }
 /* ----------------------------------------------
-      User-Permissions  end
+User-Permissions  end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-        Deal-Stages start
+Deal-Stages start
 ---------------------------------------------- */
 .Settings-main-content .Deal-Stages{
     padding-top: 20px;
@@ -3144,7 +3110,7 @@ transition: all ease .6s;
 .Settings-main-content .Deal-Stages .deal-top h2{
     font-weight: var(--font-weight-700);
     font-size: var(--font-size-18);
-    line-height: var(--line-height-18); 
+    line-height: var(--line-height-18);
     color: var(--color-1A0A26);
     margin-bottom: 11px;
 }
@@ -3170,10 +3136,10 @@ transition: all ease .6s;
     line-height: var(--line-height-14);
     color: var(--color-FFFFFF);
     background: #028C96;
-border-radius: 5px;
-padding: 10px 15px;
-border: none;
- vertical-align: middle;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    vertical-align: middle;
 }
 .Settings-main-content .Deal-Stages .listing-deal{}
 .Settings-main-content .Deal-Stages .listing-deal .item{
@@ -3185,32 +3151,31 @@ border: none;
     line-height: var(--line-height-14);
     color: var(--color-515869);
     background: #FFFFFF;
-border: 1px solid #EEF0F5;
-border-radius: 5px;
-padding: 16px 20px;
+    border: 1px solid #EEF0F5;
+    border-radius: 5px;
+    padding: 16px 20px;
 }
 .Settings-main-content .Deal-Stages .listing-deal .item a .dealleft-item{
-     vertical-align: middle;
-     display: inline-block;
+    vertical-align: middle;
+    display: inline-block;
 }
 .Settings-main-content .Deal-Stages .listing-deal .item a .dealleft-item img{
-     vertical-align: middle;
-     margin-right: 14px;
+    vertical-align: middle;
+    margin-right: 14px;
 }
 .Settings-main-content .Deal-Stages .listing-deal .item a .dealleft-item span{
-     vertical-align: middle;
-     display: inline-block;
+    vertical-align: middle;
+    display: inline-block;
 }
 .Settings-main-content .Deal-Stages .listing-deal .item a .dealright-item{
-      vertical-align: middle;
-     display: inline-block;
+    vertical-align: middle;
+    display: inline-block;
 }
 .Settings-main-content .Deal-Stages .listing-deal .item a .dealright-item img{}
 .Settings-main-content .Deal-Stages .Deal-past{
     position: relative;
     padding: 0px 0 20px 0;
     margin-bottom: 20px;
-
 }
 .Settings-main-content .Deal-Stages .Deal-past::after{
     position: absolute;
@@ -3221,7 +3186,6 @@ padding: 16px 20px;
     width: 100%;
     height: 1px;
     background: #8F95A6;
-
 }
 .Settings-main-content .Deal-Stages .Deal-past span {
     font-weight: var(--font-weight-500);
@@ -3238,12 +3202,10 @@ padding: 16px 20px;
     display: inline-block;
 }
 /* ----------------------------------------------
-       Deal-Stages end
+Deal-Stages end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-         start
+start
 ---------------------------------------------- */
 .Settings-main-content .Deal-Upcoming-Listing {
     padding-top: 20px;
@@ -3252,7 +3214,7 @@ padding: 16px 20px;
     margin-bottom: 45px;
 }
 .Settings-main-content .Deal-Upcoming-Listing .back-link a{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-16);
     line-height: var(--line-height-16);
     color: var(--color-515869);
@@ -3264,7 +3226,7 @@ padding: 16px 20px;
     margin-bottom: 31px;
 }
 .Settings-main-content .Deal-Upcoming-Listing .up-list h4{
-     font-weight: var(--font-weight-700);
+    font-weight: var(--font-weight-700);
     font-size: var(--font-size-18);
     line-height: var(--line-height-18);
     color: var(--color-515869);
@@ -3273,14 +3235,14 @@ padding: 16px 20px;
     align-self: center;
 }
 .Settings-main-content .Deal-Upcoming-Listing .up-list button{
-     font-weight: var(--font-weight-600);
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-028C96);
     background: var(--color-FFFFFF);
-border: 1px solid #028C96;
-border-radius: 17px;
-padding: 10px 25px;
+    border: 1px solid #028C96;
+    border-radius: 17px;
+    padding: 10px 25px;
 }
 .Settings-main-content .Deal-Upcoming-Listing .up-list button.Selling{}
 .Settings-main-content .Deal-Upcoming-Listing .up-list button.edit{
@@ -3292,23 +3254,23 @@ padding: 10px 25px;
     margin-bottom: 0;
 }
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal{
-background: #FFFFFF;
-border: 1px solid #EEF0F5;
-border-radius: 5px;
-margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EEF0F5;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-top-deal{
     padding: 20px;
     border-bottom: 1px solid #EEF0F5;
 }
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-top-deal h4{
-     font-weight: var(--font-weight-600);
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-16);
     line-height: var(--line-height-16);
     color: var(--color-1A0A26);
 }
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-top-deal h4 img{
-     margin-right: 10px;
+    margin-right: 10px;
 }
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-top-deal button.align-self-center {
     border: 0;
@@ -3322,7 +3284,7 @@ margin-bottom: 20px;
     margin-bottom: 0;
 }
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .common-inner-deal a.com-item{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-1A0A26);
@@ -3349,7 +3311,7 @@ margin-bottom: 20px;
 }
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-content .modal-header h2{
     margin-bottom: 0;
-     font-weight: var(--font-weight-700);
+    font-weight: var(--font-weight-700);
     font-size: var(--font-size-16);
     line-height: var(--line-height-16);
     color: var(--color-1A0A26);
@@ -3399,12 +3361,11 @@ margin-bottom: 20px;
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-footer{
     border-top: 0;
 }
-
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-footer button{
     background: #028C96;
-border-radius: 5px;
-padding: 14px 35px 12px 35px;
-font-weight: var(--font-weight-600);
+    border-radius: 5px;
+    padding: 14px 35px 12px 35px;
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-FFFFFF);
@@ -3414,20 +3375,17 @@ font-weight: var(--font-weight-600);
     color: #028C96;
     background: transparent;
     padding: padding: 14px 30px 12px 30px;
-
 }
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal  .modal-lg,
- .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal  .modal-xl {
+.Settings-main-content .Deal-Upcoming-Listing .common-item-Deal  .modal-xl {
     --bs-modal-width: 670px;
 }
 .Settings-main-content .Deal-Upcoming-Listing .common-item-Deal .modal .modal-dialog .modal-footer button.Add{}
 /* ----------------------------------------------
-        end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-         start
+start
 ---------------------------------------------- */
 .Settings-main-content .task-show0 {
     background: #5158690d;
@@ -3439,7 +3397,7 @@ font-weight: var(--font-weight-600);
 }
 .Settings-main-content .task-show0 .day-item input{
     padding: 18px 20px;
-        font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-400);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-8F95A6);
@@ -3464,20 +3422,18 @@ font-weight: var(--font-weight-600);
 /* Chrome, Safari, Edge, Opera */
 .Settings-main-content .task-show0 .day-item input::-webkit-outer-spin-button,
 .Settings-main-content .task-show0 .day-item input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
-
 /* Firefox */
 .Settings-main-content .task-show0 .day-item input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 .Settings-main-content .task-show0 select{
-border: 1px solid #EEF0F5 !important;
-border-radius: 5px !important;
-padding: 18px 20px !important;
-color: #1A0A26 !important;
-
+    border: 1px solid #EEF0F5 !important;
+    border-radius: 5px !important;
+    padding: 18px 20px !important;
+    color: #1A0A26 !important;
 }
 .Settings-main-content .task-show0 .d-item{
     margin-right: 15px;
@@ -3491,12 +3447,10 @@ color: #1A0A26 !important;
     width: 268px;
 }
 /* ----------------------------------------------
-        end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-         start
+start
 ---------------------------------------------- */
 .Settings-main-content .MessageTemplates{
     padding-top: 20px;
@@ -3517,13 +3471,13 @@ color: #1A0A26 !important;
     color: var(--color-FFFFFF);
 }
 .Settings-main-content .MessageTemplates .top-box ul li button{
-       font-weight: var(--font-weight-600);
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-1A0A26);
     background: #FFFFFF;
-border: 1px solid rgba(143, 149, 166, 0.4);
-padding: 10px 38px;
+    border: 1px solid rgba(143, 149, 166, 0.4);
+    padding: 10px 38px;
 }
 .Settings-main-content .MessageTemplates .right-template-button{}
 .Settings-main-content .MessageTemplates  .right-template-button .modal{}
@@ -3538,7 +3492,7 @@ padding: 10px 38px;
 .Settings-main-content .MessageTemplates  .right-template-button .modal .modal-body .MessageTemplate-modal2{}
 .Settings-main-content .MessageTemplates  .right-template-button .modal .modal-body .MessageTemplate-modal2 .form-group{}
 .Settings-main-content .MessageTemplates  .right-template-button .modal .modal-body .MessageTemplate-modal2 .form-group label{
- font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-028C96);
@@ -3548,7 +3502,7 @@ padding: 10px 38px;
     font-weight: var(--font-weight-500);
 }
 .Settings-main-content .MessageTemplates  .right-template-button .modal .modal-body .MessageTemplate-modal3 .form-group label{
-     font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-400);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-8F95A6);
@@ -3557,7 +3511,7 @@ padding: 10px 38px;
     border: 0;
     border-bottom: 1px solid #EEF0F5;
     border-radius: 0;
-     font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-400);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-8F95A6);
@@ -3571,7 +3525,7 @@ padding: 10px 38px;
     border: 0;
     border-bottom: 1px solid #EEF0F5;
     border-radius: 0;
-     font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-400);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-8F95A6);
@@ -3582,16 +3536,16 @@ padding: 10px 38px;
     border-color: #028C96;
 }
 .Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating input{
-font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-400);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-8F95A6);
-border: 0;
-border-bottom: 1px solid #EEF0F5;
-border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #EEF0F5;
+    border-radius: 0;
 }
 .Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .form-floating label {
-font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-400);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-8F95A6);
@@ -3632,15 +3586,15 @@ font-weight: var(--font-weight-400);
     border-top: 0;
 }
 .Settings-main-content .MessageTemplates .right-template-button .modal .modal-footer button{
-    
-border-radius: 5px;
-padding: 12px 33px 14px 33px;
-font-weight: var(--font-weight-600);
+
+    border-radius: 5px;
+    padding: 12px 33px 14px 33px;
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
-text-align: center;
-margin: 0;
-border: 0;
+    text-align: center;
+    margin: 0;
+    border: 0;
 }
 .Settings-main-content .MessageTemplates .right-template-button .modal .modal-footer button.Cancel{
     color: #028C96;
@@ -3652,22 +3606,19 @@ border: 0;
 }
 .Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .tab-content .tab-pane {}
 .Settings-main-content .MessageTemplates .right-template-button .modal .modal-body .MessageTemplate-modal .tab-content .tab-pane .form-register{}
-
-
-
 .Settings-main-content .MessageTemplates .top-text{
     margin-bottom: 20px;
 }
 .Settings-main-content .MessageTemplates .top-text h2{
     font-weight: 700;
-font-size: 18px;
-line-height: 18px;
-color: #1A0A26;
-margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #1A0A26;
+    margin-bottom: 11px;
 }
 .Settings-main-content .MessageTemplates .top-text p{
     margin-bottom:0;
- font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-12);
     line-height: var(--line-height-12);
     color: var(--color-515869);
@@ -3676,14 +3627,14 @@ margin-bottom: 11px;
     margin-right: 10px;
 }
 .Settings-main-content .MessageTemplates  .right-template-button button.NewTemplate-button{
-       font-weight: var(--font-weight-600);
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-FFFFFF);
     background: #028C96;
-border-radius: 5px;
-padding: 10px 15px;
-border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 0;
 }
 .Settings-main-content .MessageTemplates .right-template-button.right-template-button02 {
     margin-top: -53px;
@@ -3702,13 +3653,13 @@ border: 0;
     background: transparent;
 }
 .Settings-main-content .MessageTemplates .tab-content-templates .item-template{
-    
+
     background: #FFFFFF;
-border: 1px solid #EEF0F5;
+    border: 1px solid #EEF0F5;
 }
 .Settings-main-content .MessageTemplates  .tab-content-templates .item-template a.template-link span small{
-margin-top: 5px;
-  font-weight: var(--font-weight-500);
+    margin-top: 5px;
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-12);
     line-height: var(--line-height-12);
     color: var(--color-8F95A6);
@@ -3726,9 +3677,8 @@ margin-top: 5px;
     background: #fff;
     border-radius: 5px;
 }
-
 .Settings-main-content .MessageTemplates  .tab-content-templates .item-template a.template-link{
-       font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-1A0A26);
@@ -3760,17 +3710,14 @@ margin-top: 5px;
 .Settings-main-content .MessageTemplates{}
 .Settings-main-content .MessageTemplates{}
 /* ----------------------------------------------
-        end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-         start
+start
 ---------------------------------------------- */
-
- .form-register {
+.form-register {
     margin-top: 30px;
- }
+}
 .form-register .form-upload {
     margin: 5px 0;
     display: flex;
@@ -3789,15 +3736,14 @@ margin-top: 5px;
     line-height: var(--line-height-14);
     color: var(--color-1A0A26);
     align-items: center;
-
     display: flex;
 }
- .form-register .form-upload label:hover {
-     opacity: 0.7;
+.form-register .form-upload label:hover {
+    opacity: 0.7;
 }
- .form-register .form-upload label .file-upload {
-     position: absolute;
-     left: -9999px;
+.form-register .form-upload label .file-upload {
+    position: absolute;
+    left: -9999px;
 }
 .form-register .form-upload p {
     margin-left: 20px;
@@ -3810,14 +3756,12 @@ margin-top: 5px;
     position: relative;
     top: 6px;
 }
- 
+
 /* ----------------------------------------------
-        end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-        Workflows-wrapp start
+Workflows-wrapp start
 ---------------------------------------------- */
 .Settings-main-content .Workflows-wrapp{
     padding-top: 20px;
@@ -3829,22 +3773,22 @@ margin-top: 5px;
 .Settings-main-content .Workflows-wrapp .top-Workflows .right-workflows button{
     padding: 8px 15px;
     background: #028C96;
-border-radius: 5px;
-font-weight: var(--font-weight-600);
+    border-radius: 5px;
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-FFFFFF);
     border: 0;
 }
 .Settings-main-content .Workflows-wrapp .top-Workflows h2{
-     font-weight: var(--font-weight-700);
+    font-weight: var(--font-weight-700);
     font-size: var(--font-size-18);
     line-height: var(--line-height-18);
     color: var(--color-1A0A26);
     margin-bottom: 11px;
 }
 .Settings-main-content .Workflows-wrapp .top-Workflows p{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-12);
     line-height: var(--line-height-12);
     color: var(--color-515869);
@@ -3858,7 +3802,7 @@ font-weight: var(--font-weight-600);
 .Settings-main-content .Workflows-wrapp .table-responsive table thead{}
 .Settings-main-content .Workflows-wrapp .table-responsive table thead tr{}
 .Settings-main-content .Workflows-wrapp .table-responsive table thead tr th{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-515869);
@@ -3868,7 +3812,7 @@ font-weight: var(--font-weight-600);
 .Settings-main-content .Workflows-wrapp .table-responsive table tbody {}
 .Settings-main-content .Workflows-wrapp .table-responsive table tbody tr {}
 .Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td{
-     font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-500);
     font-size: var(--font-size-14);
     line-height: var(--line-height-14);
     color: var(--color-1A0A26);
@@ -3887,9 +3831,9 @@ font-weight: var(--font-weight-600);
     top: 50%;
     transform: translateY(-50%);
     width: 8px;
-height: 8px;
-background: #4CC01C;
-border-radius: 50%;
+    height: 8px;
+    background: #4CC01C;
+    border-radius: 50%;
 }
 .Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td .d-flex{}
 .Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td .d-flex button{
@@ -3903,12 +3847,10 @@ border-radius: 50%;
 }
 .Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td .d-flex button.delete {}
 /* ----------------------------------------------
-       Workflows-wrapp end
+Workflows-wrapp end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-         start
+start
 ---------------------------------------------- */
 .Workflows-inner-page {
     padding-top: 20px;
@@ -3918,10 +3860,10 @@ border-radius: 50%;
 }
 .Workflows-inner-page .inner-workflows-top .left-inner-page{}
 .Workflows-inner-page .inner-workflows-top .left-inner-page a {
-    font-weight: 700;
-font-size: 18px;
-line-height: 18px;
-color: #1A0A26;
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18);
+    color: var(--color-1A0A26);
 }
 .Workflows-inner-page .inner-workflows-top .left-inner-page a img {
     margin-right: 18px;
@@ -3933,13 +3875,13 @@ color: #1A0A26;
 }
 .Workflows-inner-page .inner-workflows-top .right-inner-page .button-item button{
     background: #FFFFFF;
-border: 1px solid #8F95A6;
-border-radius: 5px;
-padding: 9px 15px;
-font-weight: 600;
-font-size: 14px;
-line-height: 14px;
-color: #515869;
+    border: 1px solid #8F95A6;
+    border-radius: 5px;
+    padding: 9px 15px;
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
 }
 .Workflows-inner-page .inner-workflows-top .right-inner-page .form-check .form-check-input {
     float: revert;
@@ -3960,14 +3902,13 @@ color: #515869;
     padding: 17px  20px 29px  20px;
 }
 .Workflows-inner-page .wrapp-workflows-inner .inner-page-home a{
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #515869;
-padding-bottom: 28px;
-border-bottom: 1px solid #EEF0F5;
-display: block;
-
+    padding-bottom: 28px;
+    border-bottom: 1px solid #EEF0F5;
+    display: block;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
 }
 .Workflows-inner-page .wrapp-workflows-inner .inner-page-home.inner-page-itemLink{
     padding: 0;
@@ -3984,8 +3925,9 @@ display: block;
     margin-left: 8.33px;
 }
 .Workflows-inner-page .wrapp-workflows-inner .inner-page-home.inner-page-itemLink a span{
-    color: #028C96;
     font-weight: 500;
+    font-weight: var(--font-weight-500);
+    color: var(--color-028C96);
 }
 .Workflows-inner-page .wrapp-workflows-inner .cross-item{
     padding: 30px 0;
@@ -3999,10 +3941,10 @@ display: block;
     right: 0;
     margin: 0 auto;
     bottom: 0;
-width: 2px;
-height: 35px;
-background: #515869;
-z-index: -9;
+    width: 2px;
+    height: 35px;
+    background: #515869;
+    z-index: -9;
 }
 .Workflows-inner-page .wrapp-workflows-inner .cross-item::before{
     position: absolute;
@@ -4011,10 +3953,10 @@ z-index: -9;
     right: 0;
     margin: 0 auto;
     top: 0;
-width: 2px;
-height: 35px;
-background: #515869;
-z-index: -9;
+    width: 2px;
+    height: 35px;
+    background: #515869;
+    z-index: -9;
 }
 .Workflows-inner-page .wrapp-workflows-inner .cross-item img{
     position: relative;
@@ -4032,9 +3974,9 @@ z-index: -9;
     right: 0;
     margin: 0 auto;
     top: 0;
-width: 2px;
-height: 40px;
-background: #515869;
+    width: 2px;
+    height: 40px;
+    background: #515869;
 }
 .Workflows-inner-page .wrapp-workflows-inner .cross-item-end {
     padding-top: 35px;
@@ -4043,20 +3985,20 @@ background: #515869;
 .Workflows-inner-page .wrapp-workflows-inner .cross-item-end img{}
 .Workflows-inner-page .wrapp-workflows-inner .add-steps{
     background: #FFFFFF;
-border: 1px solid #EEF0F5;
-box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
-border-radius: 5px;
-max-width:320px;
-margin: 0 auto;
-padding: 15px;
+    border: 1px solid #EEF0F5;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    max-width:320px;
+    margin: 0 auto;
+    padding: 15px;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps h4{
-    font-weight: 600;
-font-size: 14px;
-line-height: 14px;
-text-align: center;
-color: #1A0A26;
-margin-bottom: 20px;
+    text-align: center;
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    margin-bottom: 20px;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps  .row>* {
     padding-right: calc(var(--bs-gutter-x) * .3);
@@ -4064,23 +4006,23 @@ margin-bottom: 20px;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .item{
     background: #FFFFFF;
-border: 1px solid #EEF0F5;
-border-radius: 5px;
-padding: 15px;
-display: block;
-width: 100%;
+    border: 1px solid #EEF0F5;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .item img{
     margin-bottom: 10px;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .item span{
-    font-weight: 500;
-font-size: 12px;
-line-height: 12px;
-text-align: center;
-color: #1A0A26;
-display: block;
-margin-bottom: 0;
+    text-align: center;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-12);
+    color: var(--color-1A0A26);
+    display: block;
+    margin-bottom: 0;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps {}
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal{}
@@ -4092,32 +4034,32 @@ margin-bottom: 0;
     margin-bottom: 25px;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .modal-body .modal-top h2 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 16px;
-    color: #1A0A26;
     margin-bottom: 10px;
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-16);
+    color: var(--color-1A0A26);
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .modal-body .modal-top p{
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #515869;
-margin-bottom: 0;
+    margin-bottom: 0;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item{}
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item .assign-to{
     margin-top: 20px;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item .assign-to h6{
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #8F95A6;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item .assign-to .form-check.active label{
-color: #1A0A26;
-font-weight: 500;
+    color: #1A0A26;
+    font-weight: 500;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item .assign-to .form-check{
     margin-right: 20px;
@@ -4127,19 +4069,18 @@ font-weight: 500;
     box-shadow: none;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item .assign-to .form-check label{
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #8F95A6;
-
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item{}
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item input[type="text"]{
-        font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #8F95A6;
-border-radius: 0;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    border-radius: 0;
     border: 0;
     border-bottom: 1px solid #EEF0F5;
     padding-bottom: 10px;
@@ -4149,13 +4090,13 @@ border-radius: 0;
     border-radius: 0;
     border: 0;
     border-bottom: 1px solid #8F95A6;
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #8F95A6;
-padding-left: 0;
-padding-bottom: 10px;
-align-self: center;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
+    padding-left: 0;
+    padding-bottom: 10px;
+    align-self: center;
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item select.last-item-select {
     min-width: 268px;
@@ -4163,40 +4104,35 @@ align-self: center;
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item select{
     margin-left: 10px;
     padding: 20px;
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #1A0A26;
-
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-footer {
     border: 0;
-
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-footer button{
-    font-weight: 600;
-font-size: 14px;
-line-height: 14px;
-text-align: center;
+    text-align: center;
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-footer button.Close{
     padding: 13px 25px;
     color: #028C96;
-
 }
 .Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-footer button.Save{
     background: #028C96;
-border-radius: 5px;
-padding: 13px 33px;
-color: #fff;
+    border-radius: 5px;
+    padding: 13px 33px;
+    color: #fff;
 }
 /* ----------------------------------------------
-        end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-         start
+start
 ---------------------------------------------- */
 .Logjn-wrapp .form-floating>.form-control-plaintext~label,
 .Logjn-wrapp .form-floating>.form-control:focus~label,
@@ -4210,7 +4146,6 @@ color: #fff;
 .Logjn-wrapp .form-floating>.form-control:not(:placeholder-shown) {
     border-color: #028C96 !important;
 }
-
 .Logjn-wrapp {
     background: #fff;
 }
@@ -4234,13 +4169,13 @@ color: #fff;
     left: 0;
     right: 0;
     font-weight: 800;
-font-size: 28px;
-line-height: 38px;
-text-align: center;
-color: #000000;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
 }
 .Logjn-wrapp .right-item{
-     max-width: 70%;
+    max-width: 70%;
     width: 100%;
 }
 .Logjn-wrapp .right-item .box{
@@ -4255,74 +4190,75 @@ color: #000000;
     margin-bottom: 20px;
 }
 .Logjn-wrapp .right-item .box .logo h4{
-font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #1A0A26;
-margin-bottom: 0;
+    margin-bottom: 0;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
 }
 .Logjn-wrapp .right-item .box .form-floating{
     margin-bottom: 26px;
 }
-
-
 .Logjn-wrapp .right-item .box .form-floating input{
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #1A0A26;
-padding: 20px 18px;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
+    padding: 20px 18px;
 }
 .Logjn-wrapp .right-item .box .form-floating label{
     font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-color: #1A0A26;
-
+    font-size: 14px;
+    line-height: 24px;
+    color: #1A0A26;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-24);
+    color: var(--color-1A0A26);
 }
 .Logjn-wrapp .right-item .box .forgot{
     margin-bottom: -6px;
     margin-bottom: 25px;
 }
 .Logjn-wrapp .right-item .box .forgot a{
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-text-align: right;
-color: #028C96;
-
+    text-align: right;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-028C96);
 }
 .Logjn-wrapp .right-item .box button{
     background: #028C96;
-border-radius: 5px;
-padding: 16px;
-width: 100%;
-display: block;
-border: 0;
-font-weight: 600;
-font-size: 14px;
-line-height: 14px;
-text-align: center;
-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 16px;
+    width: 100%;
+    display: block;
+    border: 0;
+    text-align: center;
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-FFFFFF);
 }
 .Logjn-wrapp .right-item .box .have-account {
     margin-top: 26px;
 }
 .Logjn-wrapp .right-item .box .have-account a{
     font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-text-align: right;
-color: #028C96;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    color: #;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-028C96);
 }
 /* ----------------------------------------------
-        end
+end
 ---------------------------------------------- */
-
-
-
 /* ----------------------------------------------
-                     My-Properties-wrapp   start
+My-Properties-wrapp   start
 ---------------------------------------------- */
 .My-Properties-wrapp {
     padding-top: 20px;
@@ -4331,29 +4267,29 @@ color: #028C96;
     margin-bottom: 30px;
 }
 .My-Properties-wrapp .My-Properties-Top h4{
-    font-weight: 700;
-font-size: 18px;
-line-height: 18px;
-color: #1A0A26;
-margin-bottom: 0;
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18);
+    color: var(--color-1A0A26);
+    margin-bottom: 0;
 }
 .My-Properties-wrapp .My-Properties-Top ul {}
 .My-Properties-wrapp .My-Properties-Top ul li{}
 .My-Properties-wrapp .My-Properties-Top ul a{
     background: #FFFFFF;
-border: 1px solid rgba(143, 149, 166, 0.4);
-padding: 10px 26px;
-font-weight: 600;
-font-size: 14px;
-line-height: 14px;
-text-align: center;
-color: #1A0A26;
+    border: 1px solid rgba(143, 149, 166, 0.4);
+    padding: 10px 26px;
+    text-align: center;
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-1A0A26);
 }
 .My-Properties-wrapp .My-Properties-Top ul li:first-child a{
-background: #028C96;
-border-radius: 5px 0px 0px 5px;
-border-color: #028C96;
-color: #fff;
+    background: #028C96;
+    border-radius: 5px 0px 0px 5px;
+    border-color: #028C96;
+    color: #fff;
 }
 .My-Properties-wrapp .My-Properties-Top ul li:last-child a{
     border-radius: 0px 5px 5px 0px;
@@ -4374,40 +4310,37 @@ color: #fff;
     margin-left: 15px;
 }
 .My-Properties-wrapp .My-Properties-item .box .media .media-body  h3{
-    font-weight: 600;
-font-size: 16px;
-line-height: 16px;
-color: #1A0A26;
-margin-bottom: 17px;
+    margin-bottom: 17px;
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-16);
+    line-height: var(--line-height-16);
+    color: var(--color-1A0A26);
 }
 .My-Properties-wrapp .My-Properties-item .box .media .media-body  .inner-item{
-
 }
 .My-Properties-wrapp .My-Properties-item .box .media .media-body  .inner-item .item-text{
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #515869;
- margin-right: 21.33px;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+    margin-right: 21.33px;
 }
 .My-Properties-wrapp .My-Properties-item .box .media .media-body  .inner-item .item-text img{
     margin-right: 10px;
 }
 .My-Properties-wrapp .My-Properties-item .box .media .media-body  .inner-item .item-text .text{}
 .My-Properties-wrapp .My-Properties-item .box p.udpated-text{
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-text-align: right;
-color: #8F95A6;
-
+    text-align: right;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
 }
 /* ----------------------------------------------
-                     My-Properties-wrapp   end
+My-Properties-wrapp   end
 ---------------------------------------------- */
-
 /* ----------------------------------------------
-                       Vendors-wrapp start
+Vendors-wrapp start
 ---------------------------------------------- */
 .Vendors-wrapp {
     padding-top: 20px;
@@ -4417,20 +4350,20 @@ color: #8F95A6;
 }
 .Vendors-wrapp .Vendors-Top h4{
     font-weight: 700;
-font-size: 18px;
-line-height: 18px;
-color: #1A0A26;
+    font-size: 18px;
+    line-height: 18px;
+    color: #1A0A26;
 }
 .Vendors-wrapp .Vendors-Top select{
     background-color: #FFFFFF;
-border: 1px solid #EEF0F5;
-border-radius: 5px;
-width: 149px;
-font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #515869;
-padding: 13px 15px;
+    border: 1px solid #EEF0F5;
+    border-radius: 5px;
+    width: 149px;
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-515869);
+    padding: 13px 15px;
 }
 .Vendors-wrapp .row>* {
     padding-right: calc(var(--bs-gutter-x) * .4167);
@@ -4441,9 +4374,9 @@ padding: 13px 15px;
 .Vendors-wrapp .Vendors-item{}
 .Vendors-wrapp .Vendors-item .singleItem{
     background: #FFFFFF;
-border: 1px solid #EEF0F5;
-border-radius: 5px;
-padding: 20px;
+    border: 1px solid #EEF0F5;
+    border-radius: 5px;
+    padding: 20px;
 }
 .Vendors-wrapp .Vendors-item .singleItem .hash-tag{}
 .Vendors-wrapp .Vendors-item .singleItem .hash-tag ul{
@@ -4457,20 +4390,19 @@ padding: 20px;
     background: rgb(143 149 166 / 10%);
     border-radius: 150px;
     padding: 6px 14px;
-    font-weight: 600;
-font-size: 12px;
-line-height: 12px;
-color: #1A0A26;
-
+    font-weight: var(--font-weight-600);
+    font-size: var(--font-size-12);
+    line-height: var(--line-height-12);
+    color: var(--color-1A0A26);
 }
 .Vendors-wrapp .Vendors-item .singleItem .hash-tag ul li:first-child a{}
 .Vendors-wrapp .Vendors-item .singleItem .hash-tag ul li:last-child a{}
 .Vendors-wrapp .Vendors-item .vendors-details h4{
-    font-weight: 700;
-font-size: 18px;
-line-height: 18px;
-color: #1A0A26;
-margin-bottom: 20px;
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-18);
+    line-height: var(--line-height-18);
+    color: var(--color-1A0A26);
+    margin-bottom: 20px;
 }
 .Vendors-wrapp .Vendors-item .vendors-details ul{}
 .Vendors-wrapp .Vendors-item .vendors-details ul li:last-child {
@@ -4483,11 +4415,10 @@ margin-bottom: 20px;
     margin-bottom: 16.5px;
 }
 .Vendors-wrapp .Vendors-item .vendors-details ul li a{
-    font-weight: 500;
-font-size: 14px;
-line-height: 14px;
-color: #8F95A6;
-
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-14);
+    line-height: var(--line-height-14);
+    color: var(--color-8F95A6);
 }
 .Vendors-wrapp .Vendors-item .vendors-details ul li a img{
     margin-right: 13.33px;
@@ -4496,138 +4427,119 @@ color: #8F95A6;
     display: inline-block;
 }
 /* ----------------------------------------------
-                       Vendors-wrapp end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+Vendors-wrapp end
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+start
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+end
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+start
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+end
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+start
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+end
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+start
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+end
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+start
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+end
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+start
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+end
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+start
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+end
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+start
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+end
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+start
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
----------------------------------------------- */
-
-/* ----------------------------------------------
-                        start
+end
 ---------------------------------------------- */
 /* ----------------------------------------------
-                        end
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
+---------------------------------------------- */
+/* ----------------------------------------------
+start
+---------------------------------------------- */
+/* ----------------------------------------------
+end
 ---------------------------------------------- */

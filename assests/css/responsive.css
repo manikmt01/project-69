@@ -145,7 +145,10 @@
 .Settings-main-content .filter-button .modal .modal-footer button {
     padding: 10px 25.62px 9px 25.62px;
 }
-
+.Logjn-wrapp .left-item h1 {
+    font-size: 22px;
+    line-height: 30px;
+}
 
 
 }
