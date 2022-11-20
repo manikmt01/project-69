@@ -149,6 +149,20 @@
     font-size: 22px;
     line-height: 30px;
 }
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    opacity: 1;
+    transform: scale(1) translateY(-1.6rem);
+}
+
+.Logjn-wrapp .right-item .box .form-floating input {
+    height: calc(3rem + 2px);
+}
+
+
+
+
+
+
 
 
 }
