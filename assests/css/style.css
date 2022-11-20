@@ -3819,6 +3819,9 @@ Workflows-wrapp start
     padding: 15px 20px;
     vertical-align: middle;
 }
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td a{
+    color: var(--color-1A0A26);
+}
 .Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td span{
     position: relative;
     display: inline-block;
