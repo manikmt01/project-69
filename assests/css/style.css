@@ -3875,7 +3875,22 @@ font-weight: var(--font-weight-600);
     padding: 15px 20px;
     vertical-align: middle;
 }
-.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td span{}
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td span{
+    position: relative;
+    display: inline-block;
+    padding-left: 13px;
+}
+.Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td span::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+height: 8px;
+background: #4CC01C;
+border-radius: 50%;
+}
 .Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td .d-flex{}
 .Settings-main-content .Workflows-wrapp .table-responsive table tbody tr td .d-flex button{
     border-radius: 0;
@@ -3895,7 +3910,286 @@ font-weight: var(--font-weight-600);
 /* ----------------------------------------------
          start
 ---------------------------------------------- */
-.Settings-main-content {}
+.Workflows-inner-page {
+    padding-top: 20px;
+}
+.Workflows-inner-page .inner-workflows-top {
+    margin-bottom: 37px;
+}
+.Workflows-inner-page .inner-workflows-top .left-inner-page{}
+.Workflows-inner-page .inner-workflows-top .left-inner-page a {
+    font-weight: 700;
+font-size: 18px;
+line-height: 18px;
+color: #1A0A26;
+}
+.Workflows-inner-page .inner-workflows-top .left-inner-page a img {
+    margin-right: 18px;
+    position: relative;
+    top: -4px;
+}
+.Workflows-inner-page .inner-workflows-top .right-inner-page .button-item{
+    margin-right: 20px;
+}
+.Workflows-inner-page .inner-workflows-top .right-inner-page .button-item button{
+    background: #FFFFFF;
+border: 1px solid #8F95A6;
+border-radius: 5px;
+padding: 9px 15px;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+color: #515869;
+}
+.Workflows-inner-page .inner-workflows-top .right-inner-page .form-check .form-check-input {
+    float: revert;
+    margin-left: 0;
+    margin-left: 11px;
+}
+.Workflows-inner-page .inner-workflows-top .right-inner-page .button-item button img {
+    margin-right: 10px;
+    margin-top: -3px;
+}
+.Workflows-inner-page .inner-workflows-top .right-inner-page .button-item .form-check{}
+.Workflows-inner-page .inner-workflows-top .right-inner-page .button-item .form-check input{}
+.Workflows-inner-page .inner-workflows-top .right-inner-page .button-item .form-check lable{}
+.Workflows-inner-page .wrapp-workflows-inner {}
+.Workflows-inner-page .wrapp-workflows-inner .inner-page-home {
+    background: #FFFFFF;
+    border: 1px solid #EEF0F5;
+    padding: 17px  20px 29px  20px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .inner-page-home a{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #515869;
+padding-bottom: 28px;
+border-bottom: 1px solid #EEF0F5;
+display: block;
+
+}
+.Workflows-inner-page .wrapp-workflows-inner .inner-page-home.inner-page-itemLink{
+    padding: 0;
+}
+.Workflows-inner-page .wrapp-workflows-inner .inner-page-home.inner-page-itemLink a{
+    padding: 22px 15px ;
+}
+.Workflows-inner-page .wrapp-workflows-inner .inner-page-home.inner-page-itemLink a img {
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .inner-page-home.inner-page-itemLink a img.arrow-right{
+    margin-right: 8.33px;
+    margin-left: 8.33px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .inner-page-home.inner-page-itemLink a span{
+    color: #028C96;
+    font-weight: 500;
+}
+.Workflows-inner-page .wrapp-workflows-inner .cross-item{
+    padding: 30px 0;
+    position: relative;
+    z-index: 99;
+}
+.Workflows-inner-page .wrapp-workflows-inner .cross-item::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+width: 2px;
+height: 35px;
+background: #515869;
+z-index: -9;
+}
+.Workflows-inner-page .wrapp-workflows-inner .cross-item::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+width: 2px;
+height: 35px;
+background: #515869;
+z-index: -9;
+}
+.Workflows-inner-page .wrapp-workflows-inner .cross-item img{
+    position: relative;
+    z-index: 99;
+}
+.Workflows-inner-page .wrapp-workflows-inner .cross-item-end {
+    padding: 0 !important;
+    padding-top: 35px !important;
+    position: relative;
+}
+.Workflows-inner-page .wrapp-workflows-inner .cross-item-end::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+width: 2px;
+height: 40px;
+background: #515869;
+}
+.Workflows-inner-page .wrapp-workflows-inner .cross-item-end {
+    padding-top: 35px;
+    position: relative;
+}
+.Workflows-inner-page .wrapp-workflows-inner .cross-item-end img{}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps{
+    background: #FFFFFF;
+border: 1px solid #EEF0F5;
+box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+max-width:320px;
+margin: 0 auto;
+padding: 15px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps h4{
+    font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+color: #1A0A26;
+margin-bottom: 20px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps  .row>* {
+    padding-right: calc(var(--bs-gutter-x) * .3);
+    padding-left: calc(var(--bs-gutter-x) * .3);
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .item{
+    background: #FFFFFF;
+border: 1px solid #EEF0F5;
+border-radius: 5px;
+padding: 15px;
+display: block;
+width: 100%;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .item img{
+    margin-bottom: 10px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .item span{
+    font-weight: 500;
+font-size: 12px;
+line-height: 12px;
+text-align: center;
+color: #1A0A26;
+display: block;
+margin-bottom: 0;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps {}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal{}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog{}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content{}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content{}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .modal-body{}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .modal-body .modal-top{
+    margin-bottom: 25px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .modal-body .modal-top h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #1A0A26;
+    margin-bottom: 10px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .modal-body .modal-top p{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #515869;
+margin-bottom: 0;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item{}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item .assign-to{
+    margin-top: 20px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item .assign-to h6{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #8F95A6;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item .assign-to .form-check.active label{
+color: #1A0A26;
+font-weight: 500;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item .assign-to .form-check{
+    margin-right: 20px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item   select:focus,
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item  input:focus{
+    box-shadow: none;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item .assign-to .form-check label{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #8F95A6;
+
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item{}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item input[type="text"]{
+        font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #8F95A6;
+border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #EEF0F5;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item input[type="number"]{
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #8F95A6;
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #8F95A6;
+padding-left: 0;
+padding-bottom: 10px;
+align-self: center;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item select.last-item-select {
+    min-width: 268px;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-content .New-Delay-item select{
+    margin-left: 10px;
+    padding: 20px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #1A0A26;
+
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-footer {
+    border: 0;
+
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-footer button{
+    font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-footer button.Close{
+    padding: 13px 25px;
+    color: #028C96;
+
+}
+.Workflows-inner-page .wrapp-workflows-inner .add-steps .modal .modal-dialog .modal-footer button.Save{
+    background: #028C96;
+border-radius: 5px;
+padding: 13px 33px;
+color: #fff;
+}
 /* ----------------------------------------------
         end
 ---------------------------------------------- */
@@ -3904,7 +4198,123 @@ font-weight: var(--font-weight-600);
 /* ----------------------------------------------
          start
 ---------------------------------------------- */
-.Settings-main-content {}
+.Logjn-wrapp .form-floating>.form-control-plaintext~label,
+.Logjn-wrapp .form-floating>.form-control:focus~label,
+.Logjn-wrapp .form-floating>.form-control:not(:placeholder-shown)~label,
+.Logjn-wrapp .form-floating>.form-select~label {
+    color: #028C96 !important;
+}
+.Logjn-wrapp .form-floating>.form-control-plaintext:focus,
+.Logjn-wrapp .form-floating>.form-control-plaintext:not(:placeholder-shown),
+.Logjn-wrapp .form-floating>.form-control:focus,
+.Logjn-wrapp .form-floating>.form-control:not(:placeholder-shown) {
+    border-color: #028C96 !important;
+}
+
+.Logjn-wrapp {
+    background: #fff;
+}
+.Logjn-wrapp .left-item{
+    max-width: 30%;
+    width: 100%;
+    background: #FAFBF6;
+    min-height: 100vh;
+    background-image: url('../images/login-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.Logjn-wrapp .left-item h1{
+    max-width: 290px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    font-weight: 800;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+color: #000000;
+}
+.Logjn-wrapp .right-item{
+     max-width: 70%;
+    width: 100%;
+}
+.Logjn-wrapp .right-item .box{
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Logjn-wrapp .right-item .box .logo{
+    padding-bottom: 26px;
+}
+.Logjn-wrapp .right-item .box .logo a{
+    margin-bottom: 20px;
+}
+.Logjn-wrapp .right-item .box .logo h4{
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #1A0A26;
+margin-bottom: 0;
+}
+.Logjn-wrapp .right-item .box .form-floating{
+    margin-bottom: 26px;
+}
+
+
+.Logjn-wrapp .right-item .box .form-floating input{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #1A0A26;
+padding: 20px 18px;
+}
+.Logjn-wrapp .right-item .box .form-floating label{
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: #1A0A26;
+
+}
+.Logjn-wrapp .right-item .box .forgot{
+    margin-bottom: -6px;
+    margin-bottom: 25px;
+}
+.Logjn-wrapp .right-item .box .forgot a{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+text-align: right;
+color: #028C96;
+
+}
+.Logjn-wrapp .right-item .box button{
+    background: #028C96;
+border-radius: 5px;
+padding: 16px;
+width: 100%;
+display: block;
+border: 0;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+color: #FFFFFF;
+}
+.Logjn-wrapp .right-item .box .have-account {
+    margin-top: 26px;
+}
+.Logjn-wrapp .right-item .box .have-account a{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+text-align: right;
+color: #028C96;
+}
 /* ----------------------------------------------
         end
 ---------------------------------------------- */
@@ -3912,17 +4322,181 @@ font-weight: var(--font-weight-600);
 
 
 /* ----------------------------------------------
-                        start
+                     My-Properties-wrapp   start
 ---------------------------------------------- */
+.My-Properties-wrapp {
+    padding-top: 20px;
+}
+.My-Properties-wrapp .My-Properties-Top {
+    margin-bottom: 30px;
+}
+.My-Properties-wrapp .My-Properties-Top h4{
+    font-weight: 700;
+font-size: 18px;
+line-height: 18px;
+color: #1A0A26;
+margin-bottom: 0;
+}
+.My-Properties-wrapp .My-Properties-Top ul {}
+.My-Properties-wrapp .My-Properties-Top ul li{}
+.My-Properties-wrapp .My-Properties-Top ul a{
+    background: #FFFFFF;
+border: 1px solid rgba(143, 149, 166, 0.4);
+padding: 10px 26px;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+color: #1A0A26;
+}
+.My-Properties-wrapp .My-Properties-Top ul li:first-child a{
+background: #028C96;
+border-radius: 5px 0px 0px 5px;
+border-color: #028C96;
+color: #fff;
+}
+.My-Properties-wrapp .My-Properties-Top ul li:last-child a{
+    border-radius: 0px 5px 5px 0px;
+}
+.My-Properties-wrapp .My-Properties-item{}
+.My-Properties-wrapp .My-Properties-item .box {
+    background: #FFFFFF;
+    border: 1px solid #EEF0F5;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.My-Properties-wrapp .My-Properties-item .box .media{}
+.My-Properties-wrapp .My-Properties-item .box .media img.Property-img{
+    width: 115px;
+}
+.My-Properties-wrapp .My-Properties-item .box .media .media-body {
+    margin-left: 15px;
+}
+.My-Properties-wrapp .My-Properties-item .box .media .media-body  h3{
+    font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+color: #1A0A26;
+margin-bottom: 17px;
+}
+.My-Properties-wrapp .My-Properties-item .box .media .media-body  .inner-item{
+
+}
+.My-Properties-wrapp .My-Properties-item .box .media .media-body  .inner-item .item-text{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #515869;
+ margin-right: 21.33px;
+}
+.My-Properties-wrapp .My-Properties-item .box .media .media-body  .inner-item .item-text img{
+    margin-right: 10px;
+}
+.My-Properties-wrapp .My-Properties-item .box .media .media-body  .inner-item .item-text .text{}
+.My-Properties-wrapp .My-Properties-item .box p.udpated-text{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+text-align: right;
+color: #8F95A6;
+
+}
 /* ----------------------------------------------
-                        end
+                     My-Properties-wrapp   end
 ---------------------------------------------- */
 
 /* ----------------------------------------------
-                        start
+                       Vendors-wrapp start
 ---------------------------------------------- */
+.Vendors-wrapp {
+    padding-top: 20px;
+}
+.Vendors-wrapp .Vendors-Top{
+    margin-bottom: 20px;
+}
+.Vendors-wrapp .Vendors-Top h4{
+    font-weight: 700;
+font-size: 18px;
+line-height: 18px;
+color: #1A0A26;
+}
+.Vendors-wrapp .Vendors-Top select{
+    background-color: #FFFFFF;
+border: 1px solid #EEF0F5;
+border-radius: 5px;
+width: 149px;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #515869;
+padding: 13px 15px;
+}
+.Vendors-wrapp .row>* {
+    padding-right: calc(var(--bs-gutter-x) * .4167);
+    padding-left: calc(var(--bs-gutter-x) * .4167);
+    padding-bottom: calc(var(--bs-gutter-x) * .4167);
+    padding-top: calc(var(--bs-gutter-x) * .4167);
+}
+.Vendors-wrapp .Vendors-item{}
+.Vendors-wrapp .Vendors-item .singleItem{
+    background: #FFFFFF;
+border: 1px solid #EEF0F5;
+border-radius: 5px;
+padding: 20px;
+}
+.Vendors-wrapp .Vendors-item .singleItem .hash-tag{}
+.Vendors-wrapp .Vendors-item .singleItem .hash-tag ul{
+    margin-bottom: 22px;
+    display: flex;
+}
+.Vendors-wrapp .Vendors-item .singleItem .hash-tag ul li{
+    margin-right: 5px;
+}
+.Vendors-wrapp .Vendors-item .singleItem .hash-tag ul li a{
+    background: rgb(143 149 166 / 10%);
+    border-radius: 150px;
+    padding: 6px 14px;
+    font-weight: 600;
+font-size: 12px;
+line-height: 12px;
+color: #1A0A26;
+
+}
+.Vendors-wrapp .Vendors-item .singleItem .hash-tag ul li:first-child a{}
+.Vendors-wrapp .Vendors-item .singleItem .hash-tag ul li:last-child a{}
+.Vendors-wrapp .Vendors-item .vendors-details h4{
+    font-weight: 700;
+font-size: 18px;
+line-height: 18px;
+color: #1A0A26;
+margin-bottom: 20px;
+}
+.Vendors-wrapp .Vendors-item .vendors-details ul{}
+.Vendors-wrapp .Vendors-item .vendors-details ul li:last-child {
+    margin-bottom: 0;
+}
+.Vendors-wrapp .Vendors-item .vendors-details ul li:last-child a{
+    color: #028C96;
+}
+.Vendors-wrapp .Vendors-item .vendors-details ul li{
+    margin-bottom: 16.5px;
+}
+.Vendors-wrapp .Vendors-item .vendors-details ul li a{
+    font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+color: #8F95A6;
+
+}
+.Vendors-wrapp .Vendors-item .vendors-details ul li a img{
+    margin-right: 13.33px;
+}
+.Vendors-wrapp .Vendors-item .vendors-details ul li a span{
+    display: inline-block;
+}
 /* ----------------------------------------------
-                        end
+                       Vendors-wrapp end
 ---------------------------------------------- */
 
 /* ----------------------------------------------
